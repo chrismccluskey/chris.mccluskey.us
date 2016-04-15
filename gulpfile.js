@@ -14,3 +14,18 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     mix.sass('app.scss');
 });
+
+/*elixir(function(mix) {
+    mix.browserify('app.js');
+});*/
+
+elixir(function(mix) {
+    mix.browserSync({
+        proxy: 'chris.mccluskey.us'
+    });
+});
+
+elixir(function(mix) {
+    mix.copy('resources/assets/images', 'public/img');
+    mix.copy('resources/assets/svg',    'public/svg');
+});

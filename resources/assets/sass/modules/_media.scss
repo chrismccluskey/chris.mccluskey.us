@@ -1,0 +1,35 @@
+@media screen and (min-width: 425px) {
+  #header {
+    @include backImage($header-image, center -180px, 900px, 200px);
+    h1 {
+      font-size: 2em;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #header {
+    @include backImage($header-image, center -180px, 900px, 200px);
+    h1 {
+      font-size: 2.4em;
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #header {
+    @include backImage($header-image, center -220px, 1024px, 200px);
+    h1 {
+      font-size: 2.6em;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #header {
+    @include backImage($header-image, center -220, 1024px, 200px);
+    h1 {
+      font-size: 2.8em;
+    }
+  }
+}

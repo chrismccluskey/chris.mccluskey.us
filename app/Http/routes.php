@@ -30,3 +30,8 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/about/this-site', function () {
+    return view('credits');
+});
+

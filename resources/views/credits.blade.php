@@ -1,11 +1,6 @@
-<html>
-  <head>
-      <title>About This Site: Chris McCluskey - Full Stack Web Developer</title>
-  </head>
-  <body>
-    <h1>Chris McCluskey</h1>
-    <h4>Full Stack Web Developer</h4>
+@extends('layouts.master')
 
+@section('content')
     <h2>About this site</h2>
 
     <h3>Image Credits</h3>
@@ -73,14 +68,4 @@
         Credit: M A Felton - License: Unknown<br />
         Changes / Alterations: source image was not modified, however the image may appear cropped at various browser resolutions.
     </div>
-
-    <ul>
-        <li><a href="/portfolio">Portfolio</a></li>
-        <li><a href="/resume">Resume</a></li>
-        <li><a href="/about">About Me</a></li>
-        <li><a href="/contact">Contact Me</a></li>
-    </ul>
-
-    <div><a href="/about/this-site/">about this site</a></div>
-  </body>
-</html>
+@stop

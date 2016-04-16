@@ -5,17 +5,23 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
       <title>Chris McCluskey - Full Stack Web Developer</title>
-      <link rel="stylesheet" type="text/css" href="/css/app.css" />
+      <link rel="stylesheet" type="text/css" href="/css/style.css" />
   </head>
   <body>
     <div id="container">
         <div id="header">
-            <h1 class="logo">Chris McCluskey</h1>
-            <h4 class="logo">Full Stack Web Developer</h4>
-            <img src="/svg/logo.svg" alt="[Logo]" width="78px" height="80px" />
+            <div class="centered container">
+                <div>
+                    <h1><a href="/">Chris McCluskey</a></h1>
+                    <span>Full Stack Web Developer</span>
+                </div>
+                <div>
+                    <img src="/svg/logo.svg" alt="[Logo]" />
+                </div>
+            </div>
         </div>
 
-        <div class="content">
+        <div id="content">
             @yield('content')
         </div>
 
@@ -38,7 +44,7 @@
             <div>
             <a href="">about this site</a>
             </div>
-        </div -->
+        </div>
     </div>
   </body>
 </html>

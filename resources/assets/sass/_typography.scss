@@ -1,0 +1,49 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Roboto+Condensed:400,300,300italic,400italic,700,700italic|Patua+One|Permanent+Marker);
+
+html,
+body {
+  font-family: $default-font;
+  font-size:   $font-size-in-pixels;
+}
+
+h1 {
+  font-size:  1.6em;
+}
+
+h2 {
+  font-size:  1.4em;
+}
+
+h3 {
+  font-size:  1.2em;
+}
+
+h4,
+h5,
+h6 {
+  font-size:  1em;
+}
+
+#header {
+  a {
+    text-decoration: none;
+  }
+  h1 {
+    font-family: $logo-font;
+  }
+  em {
+    font-family: $condensed-font;
+  }
+}
+
+#hero {
+  p.dark.background {
+    position: relative;
+    top: -3em;
+    padding: 0.5em;
+    margin: 1.25em 0.5em;
+    text-align: center;
+  }
+}

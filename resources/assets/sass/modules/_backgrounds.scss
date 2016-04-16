@@ -1,0 +1,7 @@
+#header {
+  @include backImage($header-image, center -180px, 900px, 180px);
+}
+
+#content {
+  @include backImage($road-image, center -180px, 1024px);
+}

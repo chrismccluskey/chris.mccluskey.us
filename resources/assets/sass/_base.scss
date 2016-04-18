@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-#header {
+header {
   text-align: center;
   vertical-align: middle;
   padding-top: 10px;
@@ -15,4 +15,41 @@
 
 #content {
   display: flex;
+  height: -3em;
+}
+
+footer {
+  nav {
+    ul {
+      //flex-flow: column wrap;
+      display: flex;
+      flex-wrap: wrap;
+      //justify-content: space-between;
+
+      li {
+        flex: 1 0 10em;
+        display: flex;
+        a {
+          display: inherit;
+          width: 100%;
+          text-align: center;
+          vertical-align: middle;
+          //order: 0;
+          //padding: auto;
+          // width for fallback (10em)
+
+          button {
+            display: block;
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+
+  div {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+  }
 }

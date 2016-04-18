@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="container">
-        <div id="header">
+        <header>
             <div class="centered container">
                 <div>
                     <h1><a href="/">Chris McCluskey</a></h1>
@@ -19,24 +19,37 @@
                     <img src="/svg/logo.svg" alt="[Logo]" />
                 </div>
             </div>
-        </div>
+        </header>
 
-        <div id="content">
+        <main id="content">
             @yield('content')
-        </div>
+        </main>
 
-        <div id="footer">
-
-            <ul class="menu">
-                <li class="portfolio item">
-                  <span>
-                    <a class="button" href="/portfolio">Portfolio</a>
-                  </span>
-                </li>
-                <li class="resume item"><a class="button" href="/resume">Resume</a></li>
-                <li class="about item"><a class="button" href="/about">About Me</a></li>
-                <li class="contact item"><a class="button" href="/contact">Contact Me</a></li>
-            </ul>
+        <footer>
+            <nav>
+                <ul>
+                    <li class="portfolio">
+                      <a class="button" href="/portfolio">
+                        <button>Portfolio</button>
+                      </a>
+                    </li>
+                    <li class="resume">
+                      <a class="button" href="/resume">
+                        <button>Resume</button>
+                      </a>
+                    </li>
+                    <li class="about">
+                      <a class="button" href="/about">
+                        <button>About Me</button>
+                      </a>
+                    </li>
+                    <li class="contact">
+                      <a class="button" href="/contact">
+                        <button>Contact Me</button>
+                      </a>
+                    </li>
+                </ul>
+            </nav>
 
             <div>
                 <img src="/svg/logo.svg" alt="[Logo]" width="144px" height="128px" />
@@ -44,7 +57,7 @@
             <div>
             <a href="">about this site</a>
             </div>
-        </div>
+        </footer>
     </div>
   </body>
 </html>

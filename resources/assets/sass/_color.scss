@@ -3,7 +3,7 @@ body {
   background-color:   $background-color;
 }
 
-#header {
+header {
   a {
     color: $logo-color;
   }
@@ -15,4 +15,12 @@ body {
 .dark.background {
   color: $dark-bg-text-color;
   background-color: $dark-bg-bg-color;
+}
+
+button {
+  display: inline;
+  background: #00447B;
+  color: #E8E9C9;
+  border: 2px solid #6F9DB5;
+  border-radius: 8px;
 }

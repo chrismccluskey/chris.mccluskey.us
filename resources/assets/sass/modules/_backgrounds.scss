@@ -1,7 +1,29 @@
-#header {
+header {
   @include backImage($header-image, center -180px, 900px, 180px);
 }
 
 #content {
-  @include backImage($road-image, center -180px, 1024px);
+  @include backImage($road-image, center -180px, 1024px, 390px);
 }
+
+footer {
+
+  li {
+    list-style: none;
+  }
+
+  .portfolio {
+    @include backImage($portfolio-image-lowres, center center, 100%, 100px);
+  }
+  .resume {
+    @include backImage($resume-image-lowres, center center, 100%, 100px);
+  }
+  .about {
+    @include backImage($about-image-lowres, center center, 100%, 100px);
+  }
+  .contact {
+    @include backImage($contact-image-lowres, center center, 100%, 100px);
+  }
+}
+
+//linear-gradient

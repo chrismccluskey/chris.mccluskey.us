@@ -26,7 +26,7 @@ h6 {
   font-size:  1em;
 }
 
-#header {
+header {
   a {
     text-decoration: none;
   }
@@ -38,12 +38,24 @@ h6 {
   }
 }
 
-#hero {
+#content {
   p.dark.background {
     position: relative;
     top: -3em;
+    //display: none;
     padding: 0.5em;
     margin: 1.25em 0.5em;
     text-align: center;
   }
+}
+
+footer {
+  padding-top: 0;
+}
+
+a.button {
+  font-family: $handwritten-font;
+  font-size: 16px;
+  padding: 0.5em;
+  text-decoration: none;
 }

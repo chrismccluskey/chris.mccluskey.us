@@ -1,4 +1,4 @@
-@import url(node_modules/normalize/normalize.css);
+@import url(/css/normalize.css);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Roboto+Condensed:400,300,300italic,400italic,700,700italic|Patua+One|Permanent+Marker);
 html,
 body,
@@ -9,7 +9,9 @@ h3,
 h4,
 h5,
 h6,
-ol {
+ol,
+div,
+li {
   margin: 0;
   padding: 0; }
 
@@ -17,31 +19,67 @@ ol {
   max-width: 1440px;
   margin: 0 auto; }
 
-#header {
+header {
   text-align: center;
   vertical-align: middle;
   padding-top: 10px; }
-  #header .container {
+  header .container {
     margin: 0 auto; }
 
 #content {
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  height: -3em; }
+
+footer nav ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  footer nav ul li {
+    -webkit-flex: 1 0 10em;
+    -ms-flex: 1 0 10em;
+    flex: 1 0 10em;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    footer nav ul li a {
+      display: inherit;
+      width: 100%;
+      text-align: center;
+      vertical-align: middle; }
+      footer nav ul li a button {
+        display: block;
+        margin: auto; }
+
+footer div {
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em; }
 
 html,
 body {
   background-color: #D0DCAA; }
 
-#header a {
+header a {
   color: #292534; }
 
-#header h4 {
+header h4 {
   color: #292534; }
 
 .dark.background {
   color: #EEE3B8;
   background-color: #001118; }
+
+button {
+  display: inline;
+  background: #00447B;
+  color: #E8E9C9;
+  border: 2px solid #6F9DB5;
+  border-radius: 8px; }
 
 html,
 body {
@@ -62,23 +100,32 @@ h5,
 h6 {
   font-size: 1em; }
 
-#header a {
+header a {
   text-decoration: none; }
 
-#header h1 {
+header h1 {
   font-family: Patua One, serif; }
 
-#header em {
+header em {
   font-family: Roboto Condensed, sans-serif; }
 
-#hero p.dark.background {
+#content p.dark.background {
   position: relative;
   top: -3em;
   padding: 0.5em;
   margin: 1.25em 0.5em;
   text-align: center; }
 
-#header {
+footer {
+  padding-top: 0; }
+
+a.button {
+  font-family: Permanent Marker, sans-serif;
+  font-size: 16px;
+  padding: 0.5em;
+  text-decoration: none; }
+
+header {
   background: url("/img/header-background.webp");
   background-repeat: no-repeat;
   background-position: center -180px;
@@ -90,7 +137,38 @@ h6 {
   background-repeat: no-repeat;
   background-position: center -180px;
   background-size: 1024px;
-  height: 100vh; }
+  height: 390px; }
+
+footer li {
+  list-style: none; }
+
+footer .portfolio {
+  background: url("/img/portfolio-background-lowres.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  height: 100px; }
+
+footer .resume {
+  background: url("/img/resume-background-lowres.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  height: 100px; }
+
+footer .about {
+  background: url("/img/about-background-lowres.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  height: 100px; }
+
+footer .contact {
+  background: url("/img/contact-background-lowres.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  height: 100px; }
 
 @media screen and (min-width: 425px) {
   #header {

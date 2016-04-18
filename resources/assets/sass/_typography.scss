@@ -38,13 +38,12 @@ header {
   }
 }
 
-#content {
+main {
   p.dark.background {
     position: relative;
-    top: -3em;
     //display: none;
     padding: 0.5em;
-    margin: 1.25em 0.5em;
+    margin: 1.25em 0.5em 0.5em 0.5em;
     text-align: center;
   }
 }

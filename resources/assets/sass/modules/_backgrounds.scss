@@ -3,8 +3,10 @@ header {
 }
 
 main {
-  //@include backImage($road-image, center -180px, 1024px, 390px);
-  @include backImage($road-image, center top, auto, auto);
+  display: flex;
+  article.road.background {
+    @include backImage($road-image, center top, auto, auto);
+  }
 }
 
 footer {

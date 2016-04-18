@@ -132,11 +132,15 @@ header {
   height: 180px; }
 
 main {
-  background: url("/img/road-background.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: auto;
-  height: auto; }
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  main article.road.background {
+    background: url("/img/road-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto;
+    height: auto; }
 
 footer li {
   list-style: none; }

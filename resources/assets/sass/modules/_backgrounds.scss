@@ -3,9 +3,13 @@ header {
 }
 
 main {
-  display: flex;
   article.road.background {
-    @include backImage($road-image, center top, auto, auto);
+    @include backImage($road-image, center center, cover, auto);
+  }
+  article {
+    div.card {
+      background: $portfolio-card-background;
+    }
   }
 }
 

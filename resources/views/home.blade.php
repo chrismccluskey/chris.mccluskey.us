@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.home')
 
 @section('content')
     <article class="road background">

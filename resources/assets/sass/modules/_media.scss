@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 1024px) {
   header {
-    @include backImage($header-image, center -220, 1024px, 200px);
+    @include backImage($header-image, center -350px, 1440px, 200px);
     h1 {
       font-size: 2.8em;
     }

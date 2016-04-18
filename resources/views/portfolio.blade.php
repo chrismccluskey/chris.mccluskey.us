@@ -1,12 +1,8 @@
-<html>
-  <head>
-      <title>Portfolio of Chris McCluskey - Full Stack Web Developer</title>
-  </head>
-  <body>
-    <h1>Chris McCluskey</h1>
-    <h4>Full Stack Web Developer</h4>
+@extends('layouts.master')
 
-    <h2>Portfolio</h2>
+@section('content')
+  <article>
+    <h2 class="masthead">Portfolio</h2>
     <h3><a name="top">Categories</a></h3>
 
     <ul>
@@ -25,9 +21,12 @@
     <hr />
 
     <h3><a name="browser-extensions">Browser Extensions</a></h3>
-    <div>
+    <div class="card">
         <h4>MESH</h4>
-        <p>MESH was a chrome extension which allowed users to selectively block ads from brands / companies they disliked while allowing ads from brands they loved.</p>
+        <img src="http://placehold.it/300x200" />
+        <div class="description">
+            <p>MESH was a chrome extension which allowed users to selectively block ads from brands / companies they disliked while allowing ads from brands they loved.</p>
+        </div>
     </div>
     <a href="#top">Back to Top</a>
 
@@ -102,15 +101,5 @@
         <p>I enjoy playing around with new technologies. While playing around with drawing on canvas with JavaScript, I created this little web toy.</p>
     </div>
     <a href="#top">Back to Top</a>
-
-
-    <ul>
-        <li><a href="portfolio">Portfolio</a></li>
-        <li><a href="resume">Resume</a></li>
-        <li><a href="about">About Me</a></li>
-        <li><a href="contact">Contact Me</a></li>
-    </ul>
-
-    <div><a href="">about this site</a></div>
-  </body>
-</html>
+  </article>
+@stop

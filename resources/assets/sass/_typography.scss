@@ -39,9 +39,37 @@ header {
 }
 
 main {
+  article {
+    h2.masthead {
+      height: 100px;
+    }
+    h3 {
+      text-align: center;
+      font-family: $condensed-font;
+    }
+    ul {
+      margin: 0.5em;
+      li {
+        padding: 0.5em;
+        margin: 0.25em;
+        list-style: none;
+        a {
+          font-family: $condensed-font;
+          text-decoration: none;
+        }
+      }
+    }
+    div.card {
+      h4 {
+        text-align: center;
+      }
+      div.description {
+        margin: 0;
+        padding: 10px;
+      }
+    }
+  }
   p.dark.background {
-    position: relative;
-    //display: none;
     padding: 0.5em;
     margin: 1.25em 0.5em 0.5em 0.5em;
     text-align: center;
@@ -52,9 +80,14 @@ footer {
   padding-top: 0;
 }
 
-a.button {
-  font-family: $handwritten-font;
-  font-size: 16px;
-  padding: 0.5em;
-  text-decoration: none;
+nav {
+  a {
+    text-decoration: none;
+    button {
+      font-family: $condensed-font;
+      font-style: italic;
+      font-size: 1.25em;
+      padding: 0.5em;
+    }
+  }
 }

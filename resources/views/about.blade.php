@@ -1,11 +1,7 @@
-<html>
-  <head>
-      <title>About Chris McCluskey - Full Stack Web Developer</title>
-  </head>
-  <body>
-    <h1>Chris McCluskey</h1>
-    <h4>Full Stack Web Developer</h4>
+@extends('layouts.master')
 
+@section('content')
+  <article>
     <h2>About Me</h2>
 
     <h3>The Gist</h3>
@@ -23,14 +19,6 @@
 
     <h3>Hobbies & Interests</h3>
     <p>In my spare time I enjoy audio, video, and radio frequency manipulation. I'm interested in taking my coding skills into the hardware world and have been getting into electronics slowly.</p>
+  </article>
+@stop
 
-    <ul>
-        <li><a href="/portfolio">Portfolio</a></li>
-        <li><a href="/resume">Resume</a></li>
-        <li><a href="/about">About Me</a></li>
-        <li><a href="/contact">Contact Me</a></li>
-    </ul>
-
-    <div><a href="/about/this-site">about this site</a></div>
-  </body>
-</html>

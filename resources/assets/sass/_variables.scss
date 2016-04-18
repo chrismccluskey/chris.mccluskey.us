@@ -2,11 +2,18 @@ $light-green:         #D0DCAA;
 $light-yellow:        #292534;
 $green: #EEE3B8;
 $black: #001118;
+$grey: #6F9DB5;
+$white: #FFFFFF;
+$pink: #6F9DB5;
 
 $background-color:    $light-green;
 $logo-color:          $light-yellow;
 $dark-bg-text-color:  $green;
 $dark-bg-bg-color:  $black;
+$subnav-bg-color:   $grey;
+$subnav-text-color:   $white;
+$portfolio-card-header-color: $green;
+$portfolio-card-description-bg-color: $pink;
 
 $default-font: Open Sans, sans-serif;
 $condensed-font: Roboto Condensed, sans-serif;
@@ -25,3 +32,8 @@ $about-image: '/img/about-background.jpg';
 $about-image-lowres: '/img/about-background-lowres.webp';
 $contact-image: '/img/contact-background.jpg';
 $contact-image-lowres: '/img/contact-background-lowres.webp';
+
+$motif-svg: '/svg/horizontal-motif.svg';
+
+$site-background: url('/img/footer_lodyas.png');
+$portfolio-card-background: url('/img/tweed.png');

@@ -1,11 +1,7 @@
-<html>
-  <head>
-      <title>R&eacute;sum&eacute; of Chris McCluskey - Full Stack Web Developer</title>
-  </head>
-  <body>
-    <h1>Chris McCluskey</h1>
-    <h4>Full Stack Web Developer</h4>
+@extends('layouts.master')
 
+@section('content')
+  <article>
     <h2>R&eacute;sum&eacute;</h2>
 
     <div>
@@ -176,14 +172,5 @@
             </ul>
         </div>
     </div>
-
-    <ul>
-        <li><a href="portfolio">Portfolio</a></li>
-        <li><a href="resume">Resume</a></li>
-        <li><a href="about">About Me</a></li>
-        <li><a href="contact">Contact Me</a></li>
-    </ul>
-
-    <div><a href="">about this site</a></div>
-  </body>
-</html>
+  </article>
+@stop

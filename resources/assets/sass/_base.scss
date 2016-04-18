@@ -16,7 +16,31 @@ header {
 }
 
 main {
+  display: flex;
+  width: 100%;
+
+  article {
+    width: 100%;
+
+    hr {
+      border: 0;
+      height: 30px;
+      width: 180px;
+      background: url($motif-svg);
+    }
+
+    div.card {
+      margin: 0.5em;
+      padding: 0.5em;
+    }
+    img {
+      width: calc(100% - 0.25em);
+      padding: 0.125em;
+    }
+
+  }
 }
+
 
 footer {
   nav {

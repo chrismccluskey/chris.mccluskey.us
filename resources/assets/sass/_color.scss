@@ -27,8 +27,18 @@ button {
 
 main {
   article {
-    ul {
+    div.solid.background {
+      background-color: $orange-cream;
+      margin: 0.5em;
+      padding: 0.5em;
+      a.button {
+        text-align: center;
+      }
+    }
+    ul.menu {
       li {
+        margin: 0;
+        padding: 0;
         background-color: $subnav-bg-color;
         a {
           color: $subnav-text-color;

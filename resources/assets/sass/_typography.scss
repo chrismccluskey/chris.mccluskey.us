@@ -61,7 +61,7 @@ main {
       text-align: center;
       font-family: $condensed-font;
     }
-    ul {
+    ul.menu {
       margin: 0.5em;
       li {
         padding: 0.5em;
@@ -106,9 +106,12 @@ nav {
   a {
     text-decoration: none;
     button {
-      font-family: $logo-font;
-      font-size: 1.25em;
+      font-family: $default-font;
+      font-style: italic;
+      font-weight: 800;
+      font-size: 1.2em;
       padding: 0.5em;
+      width: 75%;
     }
   }
 }

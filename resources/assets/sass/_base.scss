@@ -21,6 +21,18 @@ main {
 
   article {
     width: 100%;
+    h4 {
+      text-align: center;
+      padding: 1em;
+    }
+    h5 {
+      padding: 0.5em;
+    }
+    ul {
+      li {
+        margin-left: 2em;
+      }
+    }
 
     hr {
       border: 0;
@@ -33,10 +45,10 @@ main {
       margin: 0.5em;
       padding: 0.5em;
     }
-    img {
-      width: calc(100% - 0.25em);
-      padding: 0.125em;
-    }
+      img {
+        width: calc(100% - 0.25em);
+        padding: 0.125em;
+      }
 
   }
 }

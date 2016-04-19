@@ -4,18 +4,18 @@
   <article>
     <div class="resume masthead"><h2>R&eacute;sum&eacute;</h2></div>
 
-    <div>
+    <div class="solid background">
         <h3><a name="print-version">Print Version</a></h3>
         <p>If you would rather download a concise, printable version of my resume you may do so by clicking the button below.</p>
-        <a href="">Download PDF (3kb)</a>
+        <a href="" class="button">Download PDF (3kb)</a>
     </div>
 
-    <div>
+    <div class="solid background">
         <h3><a name="availability">Availability</a></h3>
         <p>At this time, I am seeking full time employment and am available for full/part time employment or contract work.</p>
     </div>
 
-    <div>
+    <div class="solid background">
         <h3><a name="skills">Skills</a></h3>
         <h4>Web Development</h4>
         <h5>Programming Languages</h5>
@@ -109,7 +109,7 @@
         </ul>
     </div>
 
-    <div>
+    <div class="solid background">
         <h3><a name="employment">Employment</a></h3>
         <div>
             <h4>Ethology</h4>
@@ -171,6 +171,14 @@
                 <li>Built CMS system with Custom JavaScript WYSIWYG Editor. Authored FTP client as HTML embedded ActiveX control for large file uploads. Wrote PHP-based PDF generator and web-based calendar / scheduling system. </li>
             </ul>
         </div>
+    </div>
+    <div class="solid background">
+        <h4>Net Solutions</h4>
+        <h5>WEB APPLICATIONS ENGINEER</h5>
+        <h6>2001 - 2002</h6>
+        <ul>
+            <li>Built CMS system with Custom JavaScript WYSIWYG Editor. Authored FTP client as HTML embedded ActiveX control for large file uploads. Wrote PHP-based PDF generator and web-based calendar / scheduling system. </li>
+        </ul>
     </div>
   </article>
 @stop

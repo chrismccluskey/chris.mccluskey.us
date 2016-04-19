@@ -5,7 +5,7 @@
     <div class="portfolio masthead"><h2>Portfolio</h2></div>
     <h3><a name="top">Categories</a></h3>
 
-    <ul>
+    <ul class="menu">
         @foreach ($project_categories as $category)
             <li><a href="#{{$category->slug}}">{{$category->title}}</a></li>
         @endforeach

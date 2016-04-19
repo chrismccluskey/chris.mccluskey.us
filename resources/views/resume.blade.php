@@ -2,7 +2,7 @@
 
 @section('content')
   <article>
-    <h2>R&eacute;sum&eacute;</h2>
+    <div class="resume masthead"><h2>R&eacute;sum&eacute;</h2></div>
 
     <div>
         <h3><a name="print-version">Print Version</a></h3>

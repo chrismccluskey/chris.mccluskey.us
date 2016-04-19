@@ -2,7 +2,7 @@
 
 @section('content')
   <article>
-    <h2>About Me</h2>
+    <div class="about masthead"><h2>About Me</h2></div>
 
     <h3>The Gist</h3>
     <p>I'm a 33 year old who has been building for the web professionally since 2001. I've mostly worked independently, building entire web applications for private companies myself. I enjoy building entire apps solo, and I enjoy working on a team.</p>

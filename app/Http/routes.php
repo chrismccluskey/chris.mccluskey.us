@@ -9,14 +9,24 @@
 | It's a breeze. Simply tell Laravel the URIs it should respond to
 | and give it the controller to call when that URI is requested.
 |
-*/
+ */
+
+use App\Project;
+use App\ProjectCategory;
+
 
 Route::get('/', function () {
     return view('home');
 });
 
 Route::get('/portfolio', function () {
-    return view('portfolio');
+
+    $projects = Project::orderBy('category_id', 'asc')->get();
+    $project_categories = ProjectCategory::orderBy('title', 'asc')->get();
+    return view('portfolio',[
+        'projects' => $projects,
+        'project_categories' => $project_categories,
+    ]);
 });
 
 Route::get('/resume', function () {

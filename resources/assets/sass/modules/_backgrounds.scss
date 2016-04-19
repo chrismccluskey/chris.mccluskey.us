@@ -7,6 +7,18 @@ main {
     @include backImage($road-image, center center, cover, auto);
   }
   article {
+    div.portfolio.masthead {
+      @include backImage($portfolio-image, center center, 100%, 8em);
+    }
+    div.resume.masthead {
+      @include backImage($resume-image, center center, 100%, 8em);
+    }
+    div.about.masthead {
+      @include backImage($about-image, center center, 100%, 8em);
+    }
+    div.contact.masthead {
+      @include backImage($contact-image, center center, 100%, 8em);
+    }
     div.card {
       background: $portfolio-card-background;
     }

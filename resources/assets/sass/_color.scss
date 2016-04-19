@@ -35,13 +35,14 @@ main {
         }
       }
     }
+    .masthead {
+      h2 {
+        color: $masthead-text-color;
+      }
+    }
     div.card {
       h4 {
         color: $portfolio-card-header-color;
-      }
-      img {
-        width: calc(100% - 0.25em);
-        padding: 0.125em;
       }
       div.description {
         background-color: $portfolio-card-description-bg-color;

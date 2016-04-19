@@ -2,7 +2,7 @@
 
 @section('content')
   <article>
-    <h2>Let's Talk</h2>
+    <div class="contact masthead"><h2>Contact Me</h2></div>
 
     <p>Please complete the form below and I will respond as soon as possible.</p>
 

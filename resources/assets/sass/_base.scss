@@ -68,9 +68,12 @@ main {
 
     hr {
       border: 0;
-      height: 30px;
-      width: 180px;
+      height: 3em;
+      margin: 1em 0;
       background: url($motif-svg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
     }
 
     div.card {
@@ -95,7 +98,7 @@ footer {
       //justify-content: space-between;
 
       li {
-        flex: 1 0 10em;
+        flex: 1 0 12em;
         display: flex;
         a {
           display: inherit;

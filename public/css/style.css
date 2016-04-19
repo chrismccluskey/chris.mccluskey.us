@@ -78,9 +78,12 @@ main {
       margin-left: 2em; }
     main article hr {
       border: 0;
-      height: 30px;
-      width: 180px;
-      background: url("/svg/horizontal-motif.svg"); }
+      height: 3em;
+      margin: 1em 0;
+      background: url("/svg/horizontal-motif.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover; }
     main article div.card {
       margin: 0.5em;
       padding: 0.5em; }
@@ -96,9 +99,9 @@ footer nav ul {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
   footer nav ul li {
-    -webkit-flex: 1 0 10em;
-    -ms-flex: 1 0 10em;
-    flex: 1 0 10em;
+    -webkit-flex: 1 0 12em;
+    -ms-flex: 1 0 12em;
+    flex: 1 0 12em;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
@@ -160,6 +163,12 @@ main article div.card h4 {
 main article div.card div.description {
   background-color: #6F9DB5; }
 
+input {
+  width: 100%; }
+
+textarea {
+  width: 100%; }
+
 html,
 body {
   font-family: Open Sans, sans-serif;
@@ -209,6 +218,7 @@ main article div.masthead {
     font-weight: 800; }
 
 main article h3 {
+  padding: 1em 0;
   text-align: center;
   font-family: Roboto Condensed, sans-serif; }
 

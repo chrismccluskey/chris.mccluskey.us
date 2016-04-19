@@ -1,5 +1,10 @@
 header {
-  @include backImage($header-image, center -180px, 900px, 180px);
+  .centered.container {
+    @include backImage($header-image, center -180px, 900px, 180px);
+  }
+  .menu.container {
+    @include backImage($header-image, center -180px, 900px, auto);
+  }
 }
 
 main {

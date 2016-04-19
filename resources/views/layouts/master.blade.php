@@ -10,13 +10,16 @@
   <body>
     <div id="container">
         <header>
-            <div class="centered container">
-                <div>
+            <div class="menu container">
+                <div class="page title">
                     <h1><a href="/">Chris McCluskey</a></h1>
                     <span>Full Stack Web Developer</span>
                 </div>
-                <div>
-                    <img src="/svg/logo.svg" alt="[Logo]" />
+                <div class="menu link">
+                    <a href="#menu">
+                        <span>MENU</span>
+                        <img src="/svg/logo.svg" alt="[Logo]" />
+                    </a>
                 </div>
             </div>
         </header>
@@ -27,6 +30,7 @@
 
         <footer>
             <nav>
+                <a name="menu"></a>
                 <ul>
                     <li class="portfolio">
                       <a class="button" href="/portfolio">

@@ -9,6 +9,9 @@ h3,
 h4,
 h5,
 h6,
+header,
+footer,
+main,
 div {
   margin: 0;
   padding: 0; }
@@ -25,10 +28,39 @@ div {
 
 header {
   text-align: center;
-  vertical-align: middle;
-  padding-top: 10px; }
-  header .container {
+  vertical-align: middle; }
+  header .centered.container {
+    padding: 0.5em 0;
     margin: 0 auto; }
+  header .menu.container {
+    padding: 0.5em 0;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: middle; }
+    header .menu.container div.page.title {
+      margin: auto 0; }
+    header .menu.container div.menu.link {
+      margin: auto 0;
+      position: relative; }
+      header .menu.container div.menu.link a {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        vertical-align: middle; }
+        header .menu.container div.menu.link a img {
+          padding: 0 0.5em; }
+        header .menu.container div.menu.link a span {
+          position: absolute;
+          top: calc((100%/2) - .75em);
+          left: 0;
+          width: 100%;
+          font-weight: 800;
+          color: #FFFFFF; }
 
 main {
   display: -webkit-flex;
@@ -222,12 +254,19 @@ nav a {
     padding: 0.5em;
     width: 75%; }
 
-header {
+header .centered.container {
   background: url("/img/header-background.webp");
   background-repeat: no-repeat;
   background-position: center -180px;
   background-size: 900px;
   height: 180px; }
+
+header .menu.container {
+  background: url("/img/header-background.webp");
+  background-repeat: no-repeat;
+  background-position: center -180px;
+  background-size: 900px;
+  height: auto; }
 
 main article.road.background {
   background: url("/img/road-background.jpg");

@@ -27,12 +27,17 @@ button {
 
 main {
   article {
-    div.solid.background {
-      background-color: $orange-cream;
-      margin: 0.5em;
-      padding: 0.5em;
-      a.button {
-        text-align: center;
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      div.solid.background {
+        flex: 1 0 15em;
+        background-color: $orange-cream;
+        margin: 0.5em;
+        padding: 0.5em;
+        a.button {
+          text-align: center;
+        }
       }
     }
     ul.menu {

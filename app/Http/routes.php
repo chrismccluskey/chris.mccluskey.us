@@ -13,6 +13,8 @@
 
 use App\Project;
 use App\ProjectCategory;
+use App\Message;
+use Illuminate\Http\Request;
 
 
 Route::get('/', function () {
@@ -39,6 +41,34 @@ Route::get('/about', function () {
 
 Route::get('/contact', function () {
     return view('contact');
+});
+
+Route::post('/contact/send-message', function (Request $request) {
+    $validator = Validator::make($request->all(), [
+        'name' => 'required|max:255',
+        'email' => 'required|max:255|email',
+        'message' => 'max:60000'
+    ]);
+
+    if ($validator->fails()) {
+        return redirect('/contact')
+            ->withInput()
+            ->withErrors($validator);
+    }
+
+    $message = new Message;
+    $message->name = $request->name;
+    $message->email = $request->email;
+    $message->message = $request->message;
+    $message->ip_address = $request->server('REMOTE_ADDR');
+    $message->user_agent = $request->server('HTTP_USER_AGENT');
+    $message->save();
+
+    return redirect('/contact/message-sent');
+});
+
+Route::get('/contact/message-sent', function () {
+    return view('message-sent');
 });
 
 Route::get('/about/this-site', function () {

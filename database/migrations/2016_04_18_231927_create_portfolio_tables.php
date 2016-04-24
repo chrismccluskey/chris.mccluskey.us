@@ -36,6 +36,7 @@ class CreatePortfolioTables extends Migration
      */
     public function down()
     {
-        Schema::drop('flights');
+        Schema::drop('project_categories');
+        Schema::drop('projects');
     }
 }

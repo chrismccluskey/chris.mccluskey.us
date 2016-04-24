@@ -1,3 +1,7 @@
+body {
+  background: $site-background;
+}
+
 header {
   .centered.container {
     @include backImage($header-image, center -180px, 900px, 180px);

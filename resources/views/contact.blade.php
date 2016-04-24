@@ -4,6 +4,7 @@
   <article>
     <div class="contact masthead"><h2>Contact Me</h2></div>
 
+    <section>
     <div class="solid background">
         <h3>Let's Talk.</h3>
         @include('common.errors')
@@ -24,5 +25,6 @@
             <input type="submit" value="Send Message">
         </form>
     </div>
+    </section>
   </article>
 @stop

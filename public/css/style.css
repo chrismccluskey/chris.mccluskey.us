@@ -267,7 +267,8 @@ main article ul.menu {
       text-decoration: none; }
 
 main article div.card h4 {
-  text-align: center; }
+  text-align: center;
+  font-size: 1.5em; }
 
 main article div.card div.description {
   margin: 0;

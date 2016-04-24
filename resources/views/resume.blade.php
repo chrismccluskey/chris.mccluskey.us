@@ -7,7 +7,7 @@
     <section>
         <div class="solid background">
             <h3><a name="print-version">Print Version</a></h3>
-            <p>If you would rather download a concise, printable version of my resume you may do so by clicking the button below.</p>
+            <p>If you would rather download a concise, printable version of my r&eacute;sum&eacute; you may do so by clicking the button below.</p>
             <a href="" class="button">Download PDF (3kb)</a>
         </div>
     </section>

@@ -15,9 +15,9 @@ elixir(function(mix) {
     mix.sass('style.scss');
 });
 
-/*elixir(function(mix) {
+elixir(function(mix) {
     mix.browserify('app.js');
-});*/
+});
 
 elixir(function(mix) {
     mix.browserSync({

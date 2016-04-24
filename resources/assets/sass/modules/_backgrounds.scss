@@ -34,12 +34,10 @@ main {
   }
 }
 
-footer {
-
+nav {
   li {
     list-style: none;
   }
-
   .portfolio {
     @include backImage($portfolio-image-lowres, center center, 100%, 100px);
   }
@@ -51,6 +49,12 @@ footer {
   }
   .contact {
     @include backImage($contact-image-lowres, center center, 100%, 100px);
+  }
+}
+
+footer {
+  nav {
+    display: block;
   }
 }
 

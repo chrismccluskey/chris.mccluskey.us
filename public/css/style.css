@@ -22,9 +22,19 @@ div {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: column wrap;
-  -ms-flex-flow: column wrap;
-  flex-flow: column wrap; }
+  -webkit-flex-flow: wrap;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap; }
+  #container header,
+  #container footer,
+  #container main,
+  #container nav {
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    z-index: 10; }
+  #container header {
+    z-index: 11; }
 
 header {
   text-align: center;
@@ -74,7 +84,9 @@ main {
       padding: 1em; }
     main article h5 {
       padding: 0.5em; }
-    main article ul {
+    main article ul li {
+      margin-left: 2em; }
+    main article ul.menu {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
@@ -82,7 +94,7 @@ main {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       text-align: center; }
-      main article ul li {
+      main article ul.menu li {
         -webkit-flex: 1 1 15em;
         -ms-flex: 1 1 15em;
         flex: 1 1 15em; }
@@ -101,26 +113,26 @@ main {
       width: calc(100% - 0.25em);
       padding: 0.125em; }
 
-footer nav ul {
+nav ul {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
-  footer nav ul li {
+  nav ul li {
     -webkit-flex: 1 0 12em;
     -ms-flex: 1 0 12em;
     flex: 1 0 12em;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
-    footer nav ul li a {
+    nav ul li a {
       display: inherit;
       width: 100%;
       text-align: center;
       vertical-align: middle; }
-      footer nav ul li a button {
+      nav ul li a button {
         display: block;
         margin: auto; }
 
@@ -134,7 +146,8 @@ body {
   background-color: #D0DCAA; }
 
 #container {
-  background-color: #D0DCAA; }
+  background-color: #D0DCAA;
+  height: 100vh; }
 
 header a {
   color: #292534; }
@@ -354,36 +367,46 @@ main article div.contact.masthead {
 main article div.card {
   background: url("/img/tweed.png"); }
 
-footer li {
+nav li {
   list-style: none; }
 
-footer .portfolio {
+nav .portfolio {
   background: url("/img/portfolio-background-lowres.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
   height: 100px; }
 
-footer .resume {
+nav .resume {
   background: url("/img/resume-background-lowres.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
   height: 100px; }
 
-footer .about {
+nav .about {
   background: url("/img/about-background-lowres.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
   height: 100px; }
 
-footer .contact {
+nav .contact {
   background: url("/img/contact-background-lowres.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
   height: 100px; }
+
+footer nav {
+  display: block; }
+
+#menu {
+  -webkit-transition: margin-top 1s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition: margin-top 1s;
+  transition-timing-function: ease-in-out;
+  margin-top: -400px; }
 
 @media screen and (min-width: 425px) {
   header .centered.container {

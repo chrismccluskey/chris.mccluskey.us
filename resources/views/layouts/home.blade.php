@@ -25,31 +25,32 @@
             @yield('content')
         </main>
 
+        <nav>
+            <ul>
+                <li class="portfolio">
+                  <a class="button" href="/portfolio">
+                    <button>Portfolio</button>
+                  </a>
+                </li>
+                <li class="resume">
+                  <a class="button" href="/resume">
+                    <button>Resume</button>
+                  </a>
+                </li>
+                <li class="about">
+                  <a class="button" href="/about">
+                    <button>About Me</button>
+                  </a>
+                </li>
+                <li class="contact">
+                  <a class="button" href="/contact">
+                    <button>Contact Me</button>
+                  </a>
+                </li>
+            </ul>
+        </nav>
+
         <footer>
-            <nav>
-                <ul>
-                    <li class="portfolio">
-                      <a class="button" href="/portfolio">
-                        <button>Portfolio</button>
-                      </a>
-                    </li>
-                    <li class="resume">
-                      <a class="button" href="/resume">
-                        <button>Resume</button>
-                      </a>
-                    </li>
-                    <li class="about">
-                      <a class="button" href="/about">
-                        <button>About Me</button>
-                      </a>
-                    </li>
-                    <li class="contact">
-                      <a class="button" href="/contact">
-                        <button>Contact Me</button>
-                      </a>
-                    </li>
-                </ul>
-            </nav>
 
             <div>
                 <img src="/svg/logo.svg" alt="[Logo]" width="144px" height="128px" />

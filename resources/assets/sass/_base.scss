@@ -2,10 +2,23 @@
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: wrap;
+
+  header,
+  footer,
+  main,
+  nav {
+    flex: 1 1 100%;
+    z-index: 10;
+  }
+
+  header {
+    z-index: 11;
+  }
 }
 
 header {
+  //z-index: 10;
   text-align: center;
   vertical-align: middle;
 
@@ -48,6 +61,7 @@ header {
 }
 
 main {
+  //z-index: 10;
   display: flex;
   width: 100%;
 
@@ -61,6 +75,11 @@ main {
       padding: 0.5em;
     }
     ul {
+      li {
+        margin-left: 2em;
+      }
+    }
+    ul.menu {
       display: flex;
       flex-wrap: wrap;
       text-align: center;
@@ -91,36 +110,40 @@ main {
   }
 }
 
+nav {
+  ul {
+    //flex-flow: column wrap;
+    display: flex;
+    flex-wrap: wrap;
+    //justify-content: space-between;
 
-footer {
-  nav {
-    ul {
-      //flex-flow: column wrap;
+    li {
+      flex: 1 0 12em;
       display: flex;
-      flex-wrap: wrap;
-      //justify-content: space-between;
+      a {
+        display: inherit;
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        //order: 0;
+        //padding: auto;
+        // width for fallback (10em)
 
-      li {
-        flex: 1 0 12em;
-        display: flex;
-        a {
-          display: inherit;
-          width: 100%;
-          text-align: center;
-          vertical-align: middle;
-          //order: 0;
-          //padding: auto;
-          // width for fallback (10em)
-
-          button {
-            display: block;
-            margin: auto;
-          }
+        button {
+          display: block;
+          margin: auto;
         }
       }
     }
   }
+}
 
+footer {
+  //position: absolute;
+  //bottom: 0px;
+  //display: block;
+  //max-width: 1440px;
+  //width: 100%;
   div {
     margin: 0 auto;
     text-align: center;

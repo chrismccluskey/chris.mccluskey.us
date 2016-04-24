@@ -13,8 +13,9 @@
 
     <hr />
 
-    @foreach ($project_categories as $category)
     <section>
+    @foreach ($project_categories as $category)
+      <div class="solid background">
         <h3><a name="{{$category->slug}}">{{$category->title}}</a></h3>
         @foreach ($projects as $project)
             @if ($project->category_id == $category->id)
@@ -33,7 +34,8 @@
             @endif
         @endforeach
         <a href="#top" class="back-to-top">Back to Top</a>
-    </section>
+      </div>
     @endforeach
+    </section>
   </article>
 @stop

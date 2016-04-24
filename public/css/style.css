@@ -83,10 +83,9 @@ main {
       flex-wrap: wrap;
       text-align: center; }
       main article ul li {
-        margin-left: 2em;
-        -webkit-flex: 1 0 15em;
-        -ms-flex: 1 0 15em;
-        flex: 1 0 15em; }
+        -webkit-flex: 1 1 15em;
+        -ms-flex: 1 1 15em;
+        flex: 1 1 15em; }
     main article hr {
       border: 0;
       height: 3em;

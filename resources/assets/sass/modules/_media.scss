@@ -6,7 +6,7 @@
         font-size: 2em;
       }
     }
-    .main.container {
+    .menu.container {
       @include backImage($header-image, center -180px, 900px, auto);
       h1 {
         font-size: 2em;
@@ -23,7 +23,7 @@
         font-size: 2.4em;
       }
     }
-    .main.container {
+    .menu.container {
       @include backImage($header-image, center -180px, 900px, auto);
       h1 {
         font-size: 2.4em;
@@ -40,7 +40,7 @@
         font-size: 2.6em;
       }
     }
-    .main.container {
+    .menu.container {
       @include backImage($header-image, center -220px, 1024px, auto);
       h1 {
         font-size: 2.6em;
@@ -57,10 +57,10 @@
         font-size: 2.8em;
       }
     }
-    .main.container {
+    .menu.container {
       @include backImage($header-image, center -350px, 1440px, auto);
       h1 {
-        font-size: 2.8em;
+        font-size: 4em;
       }
     }
   }

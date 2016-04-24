@@ -32,22 +32,38 @@
             <nav>
                 <a name="menu"></a>
                 <ul>
+                    @if ($section == 'portfolio')
+                    <li class="active portfolio">
+                    @else
                     <li class="portfolio">
+                    @endif
                       <a class="button" href="/portfolio">
                         <button>Portfolio</button>
                       </a>
                     </li>
+                    @if ($section == 'resume')
+                    <li class="active resume">
+                    @else
                     <li class="resume">
+                    @endif
                       <a class="button" href="/resume">
                         <button>Resume</button>
                       </a>
                     </li>
+                    @if ($section == 'about')
+                    <li class="active about">
+                    @else
                     <li class="about">
+                    @endif
                       <a class="button" href="/about">
                         <button>About Me</button>
                       </a>
                     </li>
+                    @if ($section == 'contact')
+                    <li class="active contact">
+                    @else
                     <li class="contact">
+                    @endif
                       <a class="button" href="/contact">
                         <button>Contact Me</button>
                       </a>

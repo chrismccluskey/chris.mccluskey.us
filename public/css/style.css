@@ -179,6 +179,17 @@ input {
 textarea {
   width: 100%; }
 
+li.active {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%); }
+  li.active a button {
+    opacity: 0.8;
+    border: 0;
+    background-color: #001118; }
+
 html,
 body {
   font-family: Open Sans, sans-serif;

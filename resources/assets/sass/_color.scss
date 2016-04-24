@@ -72,3 +72,13 @@ input {
 textarea {
   width: 100%;
 }
+li.active {
+  @include filter(grayscale(100%));
+  a {
+    button {
+      opacity: 0.8;
+      border: 0;
+      background-color: $black;
+    }
+  }
+}

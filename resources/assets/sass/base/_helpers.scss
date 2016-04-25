@@ -1,7 +1,8 @@
 div.cropped.image {
   overflow: hidden;
-  width: 100%;
-  height: calc(15em * 2/3);
+  width: calc(100% - 2em);
+  height: calc(12em * 2/3);
+  margin: 0;
 }
 
 div.card {

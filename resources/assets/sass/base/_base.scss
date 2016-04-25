@@ -88,7 +88,7 @@ main {
       flex-wrap: wrap;
       text-align: center;
       li {
-        flex: 1 1 15em;
+        flex: 1 1 12em;
       }
     }
 
@@ -106,6 +106,7 @@ main {
 }
 
 div.solid.background {
+  dl,
   p {
     padding: 0.5em;
     margin: 0.5em;

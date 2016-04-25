@@ -5,6 +5,27 @@
     <div class="about masthead"><h2>About this Site</h2></div>
         <section>
             <div class="solid background">
+                <h3>Development Credits</h3>
+                <p>Unless otherwise noted on this page, all source code for this site was developed by Chris McCluskey.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="solid background">
+                <h3>Third Party Sources</h3>
+                <p>The following third party sources are used in this site</p>
+                <dl>
+                  <dt><a href="https://laravel.com/">Laravel</a></dt>
+                  <dd>PHP Application Framework</dd>
+                  <dt><a href="https://necolas.github.io/normalize.css/" target="_new">Normalize.css</a></dt>
+                  <dd>CSS Reset Definitions</dd>
+                </dl>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="solid background">
                 <h3>Image Credits</h3>
                 <p>The following images were used on this site</p>
             </div>

@@ -8,7 +8,9 @@
         <div class="solid background">
             <h3><a name="print-version">Print Version</a></h3>
             <p>If you would rather download a concise, printable version of my r&eacute;sum&eacute; you may do so by clicking the button below.</p>
-            <a href="" class="button">Download PDF (3kb)</a>
+            <div class="centered">
+                <a href="/pdf/resume-of-chris-mccluskey.pdf"><button>Download PDF (55KB)</button></a>
+            </div>
         </div>
     </section>
     <section>

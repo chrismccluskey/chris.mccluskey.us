@@ -28,7 +28,7 @@
             <div class="cropped image"><img src="{{$project->image_filename}}" /></div>
             @endif
             <div class="description">
-                <p>{{$project->description}}</p>
+                {{$project->description}}
             </div>
         </div>
             @endif

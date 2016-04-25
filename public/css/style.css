@@ -301,6 +301,8 @@ main p.dark.background {
 
 footer {
   padding-top: 0; }
+  footer div a {
+    text-decoration: none; }
 
 nav a {
   text-decoration: none; }

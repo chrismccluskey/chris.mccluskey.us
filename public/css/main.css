@@ -141,6 +141,11 @@ footer div {
   text-align: center;
   padding: 1em; }
 
+div.cropped.image {
+  overflow: hidden;
+  width: 100%;
+  height: calc(15em * 2/3); }
+
 html,
 body {
   background-color: #D0DCAA; }

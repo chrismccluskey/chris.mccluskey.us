@@ -25,7 +25,7 @@
             <a href="{{$project->link}}"><img src="{{$project->image_filename}}" /></a>
             @else
             <h4>{{$project->title}}</h4>
-            <img src="{{$project->image_filename}}" />
+            <div class="cropped image"><img src="{{$project->image_filename}}" /></div>
             @endif
             <div class="description">
                 <p>{{$project->description}}</p>

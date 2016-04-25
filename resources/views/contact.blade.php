@@ -15,9 +15,9 @@
             <label for="name">Your Name</label>
             <input type="text" name="name" value="{{ old('name') }}" />
             <br />
-            <label for="email">Your Email Address</label>
+            <label for="email">Your Email Address *</label>
             <input type="text" name="email" value="{{ old('email') }}" />
-            <p>Your information is never shared and you will not be added to a mailing list.</p>
+            <p class="note">* Your information is never shared and you will not be added to a mailing list.</p>
             <br />
             <label for="message">Your Message</label>
             <textarea type="text" name="message">{{ old('message') }}</textarea>

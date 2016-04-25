@@ -119,6 +119,11 @@ main {
       background-position: center center;
       background-size: contain; }
 
+div.solid.background p {
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 0; }
+
 nav ul {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -167,6 +172,12 @@ div.card {
   div.card img {
     width: 100%;
     padding: 0; }
+
+p.note {
+  margin: 0 0.5em !important;
+  padding: 0 0.5em !important;
+  font-style: italic;
+  color: #77797B; }
 
 html,
 body {
@@ -344,6 +355,17 @@ nav a {
     font-size: 1.2em;
     padding: 0.5em;
     width: 75%; }
+
+label,
+input,
+textarea {
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 0;
+  width: calc(100% - 1em); }
+
+textarea {
+  height: 10em; }
 
 body {
   background: url("/img/footer_lodyas.png");

@@ -105,6 +105,14 @@ main {
   }
 }
 
+div.solid.background {
+  p {
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 0;
+  }
+}
+
 nav {
   ul {
     //flex-flow: column wrap;

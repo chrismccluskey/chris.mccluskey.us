@@ -27,3 +27,10 @@ div.card {
   }
 
 }
+
+p.note {
+  margin: 0 0.5em !important;
+  padding: 0 0.5em !important;
+  font-style: italic;
+  color: $note-color;
+}

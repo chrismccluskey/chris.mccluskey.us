@@ -76,6 +76,7 @@ Route::get('/contact/message-sent', function () {
 });
 
 Route::get('/about/this-site', function () {
+    $section = '';
     return view('credits', ['section' => $section]);
 });
 

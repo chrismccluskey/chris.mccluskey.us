@@ -179,12 +179,9 @@
             </div>
         </div>
         <div class="solid background">
-            <h4>Net Solutions</h4>
-            <h5>WEB APPLICATIONS ENGINEER</h5>
-            <h6>2001 - 2002</h6>
-            <ul>
-                <li>Built CMS system with Custom JavaScript WYSIWYG Editor. Authored FTP client as HTML embedded ActiveX control for large file uploads. Wrote PHP-based PDF generator and web-based calendar / scheduling system. </li>
-            </ul>
+            <h4>Lane Community College</h4>
+            <h5>AAS Computer Programming</h5>
+            <h6>2004</h6>
         </div>
     </section>
   </article>

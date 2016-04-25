@@ -13,6 +13,9 @@
       }
     }
   }
+  #menu {
+    margin-top: -400px;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -30,6 +33,9 @@
       }
     }
   }
+  #menu {
+    margin-top: -400px;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -45,6 +51,14 @@
       h1 {
         font-size: 2.6em;
       }
+    }
+  }
+  #menu {
+    margin-top: 0;
+  }
+  #menu-button {
+    span {
+      display: none;
     }
   }
 }
@@ -64,4 +78,13 @@
       }
     }
   }
+  #menu {
+    margin-top: 0;
+  }
+  #menu-button {
+    span {
+      display: none;
+    }
+  }
 }
+

@@ -1,0 +1,30 @@
+div.solid.background {
+  div.employer {
+    padding: 0.5em;
+    h4,
+    h5 {
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+
+    h4 {
+      font-size: 1.6em;
+    }
+
+    h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+
+    &:nth-child(odd) {
+      background-color: $employer-background-color;
+      color: $employer-background-text-color;
+    }
+
+    &:nth-child(even) {
+      background-color: $employer-background-alt-color;
+      color: $employer-background-alt-text-color;
+    }
+  }
+}

@@ -116,10 +116,12 @@
             </ul>
         </div>
     </section>
+
+    <h3><a name="employment">Employment</a></h3>
+
     <section>
         <div class="solid background">
-            <h3><a name="employment">Employment</a></h3>
-            <div>
+            <div class="employer">
                 <h4>Ethology</h4>
                 <h5>DIRECTOR OF TECHNOLOGY</h5>
                 <h5>DIRECTOR OF INTERNAL APPLICATIONS</h5>
@@ -131,7 +133,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="employer">
                 <h4>EngineWorks</h4>
                 <h5>DIRECTOR OF TECHNOLOGY</h5>
                 <h6>2005 - 2011</h6>
@@ -142,7 +144,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="employer">
                 <h4>My Little Salesman</h4>
                 <h5>COMPUTER PROGRAMMER</h5>
                 <h6>2004 - 2005</h6>
@@ -152,7 +154,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="employer">
                 <h4>Marketing By Mail</h4>
                 <h5>MANAGER OF TECHNICAL WEB OPERATIONS</h5>
                 <h6>2003 - 2004</h6>
@@ -162,7 +164,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="employer">
                 <h4>Modulus</h4>
                 <h5>WEB APPLICATIONS ENGINEER</h5>
                 <h6>2002 - 2003</h6>
@@ -171,7 +173,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="employer">
                 <h4>Net Solutions</h4>
                 <h5>WEB APPLICATIONS ENGINEER</h5>
                 <h6>2001 - 2002</h6>
@@ -180,6 +182,9 @@
                 </ul>
             </div>
         </div>
+    </section>
+    <h3><a name="employment">Employment</a></h3>
+    <section>
         <div class="solid background">
             <h4>Lane Community College</h4>
             <h5>AAS Computer Programming</h5>

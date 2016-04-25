@@ -56,7 +56,7 @@
                 <img src="/svg/logo.svg" alt="[Logo]" width="144px" height="128px" />
             </div>
             <div>
-            <a href="">about this site</a>
+            <a href="/about/this-site">credits / about this site</a>
             </div>
         </footer>
     </div>

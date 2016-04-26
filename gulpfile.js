@@ -26,8 +26,5 @@ elixir(function(mix) {
 });
 
 elixir(function(mix) {
-    mix.copy('resources/assets/images', 'public/img');
-    mix.copy('resources/assets/svg',    'public/svg');
-    mix.copy('resources/assets/pdf',    'public/pdf');
-    mix.copy('node_modules/normalize.css/normalize.css', 'public/css');
+    mix.copy('node_modules/normalize.css/normalize.css', 'resources/assets/sass/vendor/_normalize.css');
 });

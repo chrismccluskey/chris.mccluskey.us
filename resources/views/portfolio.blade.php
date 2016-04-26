@@ -21,8 +21,8 @@
             @if ($project->category_id == $category->id)
         <div class="card">
             @if (strlen($project->link) > 0)
-            <a href="{{$project->link}}"><h4>{{$project->title}}</h4></a>
-            <a href="{{$project->link}}"><img src="{{$project->image_filename}}" /></a>
+            <a href="{{$project->link}}" target="{{$project->title}}"><h4>{{$project->title}}</h4></a>
+            <a href="{{$project->link}}" target="{{$project->title}}"><img src="{{$project->image_filename}}" /></a>
             @else
             <h4>{{$project->title}}</h4>
             <div class="cropped image"><img src="{{$project->image_filename}}" /></div>

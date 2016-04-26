@@ -74,25 +74,25 @@ class DatabaseSeeder extends Seeder
         DB::table('projects')->insert([
             'title' => 'Gumby',
             'image_filename' => '/img/gumby.jpg',
-            'description' => 'Project gumby was a Python-based backend application which used Natural Language Processing techniques to categorize blocks of text automatically.',
+            'description' => 'Python based backend application which used Natural Language Processing techniques to categorize blocks of text automatically.',
             'category_id' => 2
         ]);
         DB::table('projects')->insert([
             'title' => 'Data Reporting Engine',
             'image_filename' => '/img/dre.png',
-            'description' => 'The data reporting engine was responsible for capturing data from a variety of different sources and reporting it to clients, employees and to other external services. The engine was designed to be flexible in order to specifically cater to changing business needs.',
+            'description' => 'The data reporting engine was responsible for capturing data from a variety of different sources and reporting it to clients, employees and to other external sources. The engine was designed to be very flexible in order to specifically cater to changing business needs.',
             'category_id' => 3
         ]);
         DB::table('projects')->insert([
             'title' => 'The Content Tool',
             'image_filename' => '/img/content-tool.png',
-            'description' => 'The Content Tool was designed to assist employees with site planning and content strategy efforts for clients. The tool worked in conjunction with other projects (Gumby and Hogna) to crawl, analyze, catalog, and edit / author site content. The tool also contained versioning, device emulation (with screenshots at different resolutions) and project planning features.',
+            'description' => 'The content tool was designed to assist employees with site planning and content strategy efforts for clients. The tool worked in conjunction with other projects (Gumby, Hogna and the Data Reporting Engine) to crawl, analyze, catalog, and edit / author site content. The tool also contained versioning, device emulation (with screenshots at different resolutions) and project planning features.',
             'category_id' => 4
         ]);
         DB::table('projects')->insert([
             'title' => 'DevStack',
             'image_filename' => '/img/devstack.png',
-            'description' => 'Powered by vagrant and salt stack, DevStack was an internal tool used to mimic our production environment to other developers who were not used to working on their own copy of the code. It came with a web interface that let devs choose technologies needed for each project which were later saved to a JSON file that lived with the source code.',
+            'description' => 'Powered by vagrant and salt stack, DevStack was an internal tool used to mimic our production environment to other developers who were not used to working on their own copy of the code. It came with a web interface that let them choose technologies needed for each project which were later saved to a JSON file that lived with the source code.',
             'category_id' => 5
         ]);
         DB::table('projects')->insert([
@@ -111,7 +111,7 @@ class DatabaseSeeder extends Seeder
         DB::table('projects')->insert([
             'title' => 'Hogna',
             'image_filename' => '/img/hogna.jpg',
-            'description' => 'A versatile web crawler used for the analysis and tracking of client site content.',
+            'description' => 'A versatile web crawler used for the analysis and inventorying of client site content.',
             'category_id' => 8
         ]);
         DB::table('projects')->insert([

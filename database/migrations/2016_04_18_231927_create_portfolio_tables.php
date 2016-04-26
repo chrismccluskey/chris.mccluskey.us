@@ -23,7 +23,7 @@ class CreatePortfolioTables extends Migration
             $table->string('title');
             $table->string('link');
             $table->string('image_filename');
-            $table->string('description');
+            $table->mediumText('description');
             $table->integer('category_id');
             $table->timestamps();
         });

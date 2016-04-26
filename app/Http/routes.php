@@ -72,6 +72,7 @@ Route::post('/contact/send-message', function (Request $request) {
 });
 
 Route::get('/contact/message-sent', function () {
+    $section = '';
     return view('message-sent', ['section' => $section]);
 });
 

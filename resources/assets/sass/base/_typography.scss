@@ -93,8 +93,11 @@ main {
       display: block;
       margin: 1em 0;
       text-align: center;
-      text-transform: uppercase;
       text-decoration: none;
+      button {
+        text-transform: uppercase;
+        text-decoration: none;
+      }
 
     }
   }

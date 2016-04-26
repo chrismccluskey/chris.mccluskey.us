@@ -33,7 +33,7 @@
         </div>
             @endif
         @endforeach
-        <a href="#top" class="back-to-top">Back to Top</a>
+        <a href="#top" class="back-to-top"><button>&#9650; Back to Top &#9650;</button></a>
       </div>
     @endforeach
     </section>

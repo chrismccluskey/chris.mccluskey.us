@@ -348,8 +348,10 @@ main article a.back-to-top {
   display: block;
   margin: 1em 0;
   text-align: center;
-  text-transform: uppercase;
   text-decoration: none; }
+  main article a.back-to-top button {
+    text-transform: uppercase;
+    text-decoration: none; }
 
 main p.dark.background {
   padding: 0.5em;

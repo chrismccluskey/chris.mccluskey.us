@@ -82,9 +82,24 @@
             </div>
 
             <div class="solid background">
+                    <div class="cropped image"><img src="/img/about-background.jpg" width="320" height="180"></div>
                 <br />
                 <h4>Iceberg 1999</h4>
                 Credit: M A Felton - License: Unknown<br />
+                Changes / Alterations: source image was not modified, however the image may appear cropped at various browser resolutions.
+            </div>
+
+            <div class="solid background">
+                <div class="cropped image"><a href="http://subtlepatterns.com/dark-sharp-edges/"><img src="/img/footer_lodyas.png" width="320"></a></div>
+                <h4>Dark Sharp Edges</h4>
+                Credit: <a href="http://lodyas.com/carlos-aguilar/">Carlos Aguilar</a> - License: <a href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC BY-SA 3.0</a><br />
+                Changes / Alterations: source image was not modified, however the image may appear cropped at various browser resolutions.
+            </div>
+
+            <div class="solid background">
+                <div class="cropped image"><a href="http://subtlepatterns.com/tweed/"><img src="/img/tweed.png" width="320"></a></div>
+                <h4>Tweed</h4>
+                Credit: Simon Leo - License: <a href="https://creativecommons.org/licenses/by-sa/3.0/us/">CC BY-SA 3.0</a><br />
                 Changes / Alterations: source image was not modified, however the image may appear cropped at various browser resolutions.
             </div>
         </section>

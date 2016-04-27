@@ -792,7 +792,7 @@ textarea {
 
 body {
   background: url("/img/footer_lodyas.png");
-  background-repeat: repeat; }
+  background-repeat: repeat repeat; }
 
 header .centered.container {
   background: url("/img/header-background.jpg");

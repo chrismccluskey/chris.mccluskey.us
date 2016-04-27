@@ -23,10 +23,12 @@ Route::get('/', function () {
 
 Route::get('/portfolio', function () {
     $section = 'portfolio';
+    $title = 'Portfolio of ';
     $projects = Project::orderBy('category_id', 'asc')->get();
     $project_categories = ProjectCategory::orderBy('title', 'asc')->get();
     return view('portfolio',[
         'section' => $section,
+        'title' => $title,
         'projects' => $projects,
         'project_categories' => $project_categories,
     ]);
@@ -34,17 +36,29 @@ Route::get('/portfolio', function () {
 
 Route::get('/resume', function () {
     $section = 'resume';
-    return view('resume', ['section' => $section]);
+    $title = 'R&eacute;sum&eacute; of ';
+    return view('resume', [
+        'section' => $section,
+        'title' => $title,
+    ]);
 });
 
 Route::get('/about', function () {
     $section = 'about';
-    return view('about', ['section' => $section]);
+    $title = 'About ';
+    return view('about', [
+        'section' => $section,
+        'title' => $title,
+    ]);
 });
 
 Route::get('/contact', function () {
     $section = 'contact';
-    return view('contact', ['section' => $section]);
+    $title = 'Contact ';
+    return view('contact', [
+        'section' => $section,
+        'title' => $title,
+    ]);
 });
 
 Route::post('/contact/send-message', function (Request $request) {
@@ -73,11 +87,19 @@ Route::post('/contact/send-message', function (Request $request) {
 
 Route::get('/contact/message-sent', function () {
     $section = '';
-    return view('message-sent', ['section' => $section]);
+    $title = 'Message Sent to ';
+    return view('message-sent', [
+        'section' => $section,
+        'title' => $title,
+    ]);
 });
 
 Route::get('/about/this-site', function () {
     $section = '';
-    return view('credits', ['section' => $section]);
+    $title = 'About This Site: ';
+    return view('credits', [
+        'section' => $section,
+        'title' => $title,
+    ]);
 });
 

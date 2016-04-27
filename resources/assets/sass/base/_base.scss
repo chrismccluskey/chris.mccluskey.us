@@ -82,6 +82,8 @@ main {
     align-items: center;
     align-content: center;
     min-height: 34em;
+    height: auto;
+    overflow: visible;
 
     p {
       padding: 1em;

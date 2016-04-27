@@ -4,7 +4,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-      <title>Chris McCluskey - Full Stack Web Developer</title>
+      <title>{{ $title }}Chris McCluskey - Full Stack Web Developer</title>
       <link rel="stylesheet" type="text/css" href="/css/main.css" />
       @include('common.google-analytics')
   </head>

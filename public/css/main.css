@@ -483,7 +483,9 @@ main {
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
-    min-height: 34em; }
+    min-height: 34em;
+    height: auto;
+    overflow: visible; }
     main article.road.background p {
       padding: 1em;
       -webkit-flex: 1 0 80%;

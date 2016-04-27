@@ -26,5 +26,5 @@ elixir(function(mix) {
 });
 
 elixir(function(mix) {
-    mix.copy('node_modules/normalize.css/normalize.css', 'resources/assets/sass/vendor/_normalize.css');
+    mix.copy('node_modules/normalize.css/normalize.css', 'resources/assets/sass/vendors/_normalize.css');
 });

@@ -6,6 +6,7 @@
 
       <title>Chris McCluskey - Full Stack Web Developer</title>
       <link rel="stylesheet" type="text/css" href="/css/main.css" />
+      @include('common.google-analytics')
   </head>
   <body>
     <div id="container">
@@ -79,7 +80,6 @@
             <a href="/about/this-site">credits / about this site</a>
             </div>
         </footer>
-    @include('common.google-analytics')
     </div>
     <script type="text/javascript" src="/js/app.js"></script>
   </body>

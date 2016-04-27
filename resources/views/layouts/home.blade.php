@@ -6,6 +6,7 @@
 
       <title>Chris McCluskey - Full Stack Web Developer</title>
       <link rel="stylesheet" type="text/css" href="/css/main.css" />
+      @include('common.google-analytics')
   </head>
   <body>
     <div id="container">
@@ -60,6 +61,5 @@
             </div>
         </footer>
     </div>
-    @include('common.google-analytics')
   </body>
 </html>

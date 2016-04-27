@@ -21,7 +21,7 @@ elixir(function(mix) {
 
 elixir(function(mix) {
     mix.browserSync({
-        proxy: 'chris.mccluskey.us'
+        proxy: 'local.chris.mccluskey.us'
     });
 });
 

@@ -14,7 +14,7 @@ header {
 
 main {
   article.road.background {
-    @include backImage($road-image, center center, cover, auto);
+    @include backImage($road-image, top center, cover, calc(50vh - 280px));
   }
   article {
     div.portfolio.masthead {

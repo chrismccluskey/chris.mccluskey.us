@@ -75,6 +75,20 @@ main {
   align-content: center;
   width: 100%;
 
+  article.road.background {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 34em;
+
+    p {
+      padding: 1em;
+      flex: 1 0 80%;
+    }
+  }
+
   article {
     width: 100%;
     h4 {

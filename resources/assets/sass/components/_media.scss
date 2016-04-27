@@ -21,7 +21,7 @@
 @media screen and (min-width: 600px) {
   header {
     .centered.container {
-      @include backImage($header-image, center -180px, 900px, 200px);
+      @include backImage($header-image, center -180px, 900px, 180px);
       h1 {
         font-size: 2.4em;
       }
@@ -31,6 +31,11 @@
       h1 {
         font-size: 2.4em;
       }
+    }
+  }
+  main {
+    article.road.background {
+      min-height: 24em;
     }
   }
   #menu {
@@ -51,6 +56,11 @@
       h1 {
         font-size: 2.6em;
       }
+    }
+  }
+  main {
+    article.road.background {
+      min-height: 50vh;
     }
   }
   #menu {
@@ -78,6 +88,11 @@
       }
     }
   }
+  main {
+    article.road.background {
+      min-height: calc(100vh - 320px);
+    }
+  }
   #menu {
     margin-top: 0;
   }
@@ -88,3 +103,32 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  header {
+    .centered.container {
+      @include backImage($header-image, center -350px, 1440px, 200px);
+      h1 {
+        font-size: 2.8em;
+      }
+    }
+    .menu.container {
+      @include backImage($header-image, center -350px, 1440px, auto);
+      h1 {
+        font-size: 4em;
+      }
+    }
+  }
+  main {
+    article.road.background {
+      min-height: calc(100vh - 550px);
+    }
+  }
+  #menu {
+    margin-top: 0;
+  }
+  #menu-button {
+    span {
+      display: none;
+    }
+  }
+}

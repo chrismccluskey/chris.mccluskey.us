@@ -762,6 +762,9 @@ nav a {
     padding: 0.5em;
     width: 75%; }
 
+div a {
+  text-decoration: none; }
+
 div.solid.background div.employer {
   padding: 0.5em; }
   div.solid.background div.employer h4,

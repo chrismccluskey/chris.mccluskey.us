@@ -14,7 +14,8 @@ header {
 
 main {
   article.road.background {
-    @include backImage($road-image, top center, cover, calc(50vh - 280px));
+//    @include backImage($road-image, top center, cover, calc(80vh - 280px));
+    @include backImage($road-image, top center, cover, auto);
   }
   article {
     div.portfolio.masthead {
@@ -52,11 +53,3 @@ nav {
     @include backImage($contact-image-lowres, center center, 100%, 100px);
   }
 }
-
-footer {
-  nav {
-    display: block;
-  }
-}
-
-//linear-gradient

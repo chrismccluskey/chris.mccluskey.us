@@ -1,12 +1,11 @@
-div.cropped.image {
+.cropped.image {
   overflow: hidden;
   width: calc(100% - 2em);
   height: calc(12em * 2/3);
   margin: 0;
 }
 
-
-p.note {
+.note {
   margin: 0 0.5em !important;
   padding: 0 0.5em !important;
   font-style: italic;

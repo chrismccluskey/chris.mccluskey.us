@@ -498,13 +498,13 @@ div.solid.background p {
   margin: 0.5em;
   border: 0; }
 
-div.cropped.image {
+.cropped.image {
   overflow: hidden;
   width: calc(100% - 2em);
   height: calc(12em * 2/3);
   margin: 0; }
 
-p.note {
+.note {
   margin: 0 0.5em !important;
   padding: 0 0.5em !important;
   font-style: italic;
@@ -542,80 +542,25 @@ header h1 {
 header em {
   font-family: Roboto Condensed, sans-serif; }
 
-main article div.masthead {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-  main article div.masthead h2 {
-    display: inline;
-    width: 100%;
-    height: 1.5em;
-    margin: auto 0;
-    background-image: radial-gradient(50% 50%, #001118 50%, rgba(0, 17, 24, 0) 100%);
-    font-family: Open Sans, sans-serif;
-    font-size: 2em;
-    font-style: italic;
-    font-weight: 800; }
+main article div.masthead h2 {
+  font-family: Open Sans, sans-serif;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 800;
+  color: #EBA834; }
 
 main article h3 {
-  padding: 1em 0;
-  text-align: center;
   font-family: Roboto Condensed, sans-serif; }
 
-main article ul.menu {
-  margin: 0.5em; }
-  main article ul.menu li {
-    padding: 0.5em;
-    margin: 0.25em;
-    list-style: none; }
-    main article ul.menu li a {
-      font-family: Roboto Condensed, sans-serif;
-      text-decoration: none; }
+main article ul.menu li a {
+  font-family: Roboto Condensed, sans-serif;
+  color: #FFFFFF; }
 
-main article div.card h4 {
-  text-align: center;
-  font-size: 1.5em; }
-
-main article div.card div.description {
-  margin: 0;
-  padding: 10px; }
-
-main article a.back-to-top {
-  display: block;
-  margin: 1em 0;
-  text-align: center;
-  text-decoration: none; }
-  main article a.back-to-top button {
-    text-transform: uppercase;
-    text-decoration: none; }
-
-main p.dark.background {
-  padding: 0.5em;
-  margin: 1.25em 0.5em 0.5em 0.5em;
-  text-align: center; }
-
-footer {
-  padding-top: 0; }
-  footer div a {
-    text-decoration: none; }
-
-nav a {
-  text-decoration: none; }
-  nav a button {
-    font-family: Open Sans, sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    font-size: 1.2em;
-    padding: 0.5em;
-    width: 75%; }
-
-div a {
-  text-decoration: none; }
+nav a button {
+  font-family: Open Sans, sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 1.2em; }
 
 nav ul {
   display: -webkit-flex;
@@ -632,6 +577,7 @@ nav ul {
     display: -ms-flexbox;
     display: flex; }
     nav ul li a {
+      text-decoration: none;
       display: inherit;
       width: 100%;
       text-align: center;
@@ -692,10 +638,75 @@ header {
           font-weight: 800;
           color: #FFFFFF; }
 
-footer div {
-  margin: 0 auto;
+#container {
+  background-color: #D0DCAA; }
+
+main article div.masthead {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-align: center;
-  padding: 1em; }
+  vertical-align: middle;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  main article div.masthead h2 {
+    display: inline;
+    width: 100%;
+    height: 1.5em;
+    margin: auto 0;
+    background-image: radial-gradient(50% 50%, #001118 50%, rgba(0, 17, 24, 0) 100%); }
+
+main article h3 {
+  text-align: center;
+  padding: 1em 0; }
+
+main article section {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  main article section div.solid.background {
+    -webkit-flex: 1 0 15em;
+    -ms-flex: 1 0 15em;
+    flex: 1 0 15em;
+    background-color: #E8E9C9;
+    margin: 0.5em;
+    padding: 0.5em; }
+    main article section div.solid.background a.button {
+      text-align: center; }
+
+main article ul.menu {
+  margin: 0.5em; }
+  main article ul.menu li {
+    padding: 0.5em;
+    margin: 0.25em;
+    list-style: none;
+    background-color: #6F9DB5; }
+    main article ul.menu li a {
+      text-decoration: none; }
+
+main article a.back-to-top {
+  display: block;
+  margin: 1em 0;
+  text-align: center;
+  text-decoration: none; }
+  main article a.back-to-top button {
+    text-transform: uppercase;
+    text-decoration: none; }
+
+footer {
+  padding-top: 0; }
+  footer nav {
+    display: block; }
+  footer div {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em; }
+    footer div a {
+      text-decoration: none; }
 
 label,
 input,
@@ -719,7 +730,9 @@ button {
   background: #00447B;
   color: #E8E9C9;
   border: 2px solid #6F9DB5;
-  border-radius: 8px; }
+  border-radius: 8px;
+  padding: 0.5em;
+  width: 75%; }
 
 div.card {
   margin: 0.5em;
@@ -727,8 +740,11 @@ div.card {
   div.card a {
     text-decoration: none; }
   div.card h4 {
+    text-align: center;
     margin: 0;
-    padding: 0 0 0.25em 0; }
+    padding: 0 0 0.25em 0;
+    font-size: 1.5em;
+    color: #EEE3B8; }
   div.card div.cropped.image {
     overflow: hidden;
     width: 100%;
@@ -736,6 +752,10 @@ div.card {
   div.card img {
     width: 100%;
     padding: 0; }
+  div.card div.description {
+    background-color: #6F9DB5;
+    margin: 0;
+    padding: 10px; }
 
 body {
   background: url("/img/footer_lodyas.png");
@@ -760,7 +780,7 @@ main article.road.background {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  height: calc(50vh - 280px); }
+  height: auto; }
 
 main article div.portfolio.masthead {
   background: url("/img/portfolio-background.jpg");
@@ -823,9 +843,6 @@ nav .contact {
   background-position: center center;
   background-size: 100%;
   height: 100px; }
-
-footer nav {
-  display: block; }
 
 #menu {
   -webkit-transition: margin-top 1s;
@@ -950,7 +967,10 @@ footer nav {
 
 .dark.background {
   color: #EEE3B8;
-  background-color: #001118; }
+  background-color: #001118;
+  padding: 0.5em;
+  margin: 1.25em 0.5em 0.5em 0.5em;
+  text-align: center; }
 
 div.solid.background div.employer {
   padding: 0.5em; }

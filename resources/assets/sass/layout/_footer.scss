@@ -1,12 +1,19 @@
 footer {
+  padding-top: 0;
   //position: absolute;
   //bottom: 0px;
   //display: block;
   //max-width: 1440px;
   //width: 100%;
+  nav {
+    display: block;
+  }
   div {
     margin: 0 auto;
     text-align: center;
     padding: 1em;
+    a {
+      text-decoration: none;
+    }
   }
 }

@@ -6,8 +6,11 @@ div.card {
     text-decoration: none;
   }
   h4 {
+    text-align: center;
     margin: 0;
     padding: 0 0 0.25em 0;
+    font-size: 1.5em;
+    color: $portfolio-card-header-color;
   }
 
   div.cropped.image {
@@ -18,6 +21,11 @@ div.card {
   img {
     width: 100%;
     padding: 0;
+  }
+  div.description {
+    background-color: $portfolio-card-description-bg-color;
+    margin: 0;
+    padding: 10px;
   }
 
 }

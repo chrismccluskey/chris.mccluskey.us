@@ -18,11 +18,17 @@ header {
   }
 
   .menu.container {
+    z-index: 11;
     padding: 0.5em 0;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     vertical-align: middle;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 
     div.page.title {
       margin: auto 0;
@@ -47,5 +53,10 @@ header {
       }
     }
   }
+  nav {
+    z-index: 10;
+    position: fixed;
+  }
+
 
 }

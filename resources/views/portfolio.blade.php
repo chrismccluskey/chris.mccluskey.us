@@ -3,7 +3,7 @@
 @section('content')
   <article>
     <div class="portfolio masthead"><h2>Portfolio</h2></div>
-    <h3><a name="top">Categories</a></h3>
+    <h3>Categories</h3>
 
     <ul class="menu">
         @foreach ($project_categories as $category)

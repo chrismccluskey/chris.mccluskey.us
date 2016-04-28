@@ -10,11 +10,11 @@ mccluskey.ready = function() {
 
   handler = {
     menuClick: function(event) {
-      if($menu.style.marginTop == '0px') {
+      if($menu.style.marginTop == '5em') {
         var height = $menu.clientHeight;
         $menu.style.marginTop = '-'+height+'px';
       } else {
-        $menu.style.marginTop = '0px';
+        $menu.style.marginTop = '5em';
       }
     }
   }

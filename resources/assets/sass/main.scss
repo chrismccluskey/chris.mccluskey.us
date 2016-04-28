@@ -8,12 +8,18 @@
 @import 'base/reset';
 @import 'base/base';
 @import 'base/helpers';
-@import 'base/color';
 @import 'base/typography';
 
-@import 'pages/resume';
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/forms';
 
-@import 'components/forms';
+@import 'components/button';
+@import 'components/card';
 @import 'components/backgrounds';
 @import 'components/animation';
 @import 'components/media';
+
+@import 'pages/home';
+@import 'pages/resume';

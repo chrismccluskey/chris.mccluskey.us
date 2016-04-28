@@ -1,0 +1,51 @@
+header {
+  a {
+    color: $logo-color;
+  }
+  h4 {
+    color: $logo-color;
+  }
+}
+
+header {
+  //z-index: 10;
+  text-align: center;
+  vertical-align: middle;
+
+  .centered.container {
+    padding: 0.5em 0;
+    margin: 0 auto;
+  }
+
+  .menu.container {
+    padding: 0.5em 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+
+    div.page.title {
+      margin: auto 0;
+    }
+    div.menu.link {
+      margin: auto 0;
+      position: relative;
+      a {
+        display: flex;
+        vertical-align: middle;
+        img {
+          padding: 0 0.5em;
+        }
+        span {
+          position: absolute;
+          top: calc((100%/2) - .75em);
+          left: 0;
+          width: 100%;
+          font-weight: 800;
+          color: $white;
+        }
+      }
+    }
+  }
+
+}

@@ -381,6 +381,13 @@ div {
   margin: 0;
   padding: 0; }
 
+html,
+body {
+  background-color: #D0DCAA; }
+
+a {
+  text-decoration: none; }
+
 #container {
   max-width: 1440px;
   margin: 0 auto;
@@ -413,42 +420,6 @@ div {
     -webkit-flex: 0 1 100%;
     -ms-flex: 0 1 100%;
     flex: 0 1 100%; }
-
-header {
-  text-align: center;
-  vertical-align: middle; }
-  header .centered.container {
-    padding: 0.5em 0;
-    margin: 0 auto; }
-  header .menu.container {
-    padding: 0.5em 0;
-    margin: 0 auto;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    vertical-align: middle; }
-    header .menu.container div.page.title {
-      margin: auto 0; }
-    header .menu.container div.menu.link {
-      margin: auto 0;
-      position: relative; }
-      header .menu.container div.menu.link a {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        vertical-align: middle; }
-        header .menu.container div.menu.link a img {
-          padding: 0 0.5em; }
-        header .menu.container div.menu.link a span {
-          position: absolute;
-          top: calc((100%/2) - .75em);
-          left: 0;
-          width: 100%;
-          font-weight: 800;
-          color: #FFFFFF; }
 
 main {
   display: -webkit-flex;
@@ -527,136 +498,17 @@ div.solid.background p {
   margin: 0.5em;
   border: 0; }
 
-nav ul {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-  nav ul li {
-    -webkit-flex: 1 0 12em;
-    -ms-flex: 1 0 12em;
-    flex: 1 0 12em;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
-    nav ul li a {
-      display: inherit;
-      width: 100%;
-      text-align: center;
-      vertical-align: middle; }
-      nav ul li a button {
-        display: block;
-        margin: auto; }
-
-footer div {
-  margin: 0 auto;
-  text-align: center;
-  padding: 1em; }
-
 div.cropped.image {
   overflow: hidden;
   width: calc(100% - 2em);
   height: calc(12em * 2/3);
   margin: 0; }
 
-div.card {
-  margin: 0.5em;
-  padding: 0.5em; }
-  div.card a {
-    text-decoration: none; }
-  div.card h4 {
-    margin: 0;
-    padding: 0 0 0.25em 0; }
-  div.card div.cropped.image {
-    overflow: hidden;
-    width: 100%;
-    height: calc(12em * 2/3); }
-  div.card img {
-    width: 100%;
-    padding: 0; }
-
 p.note {
   margin: 0 0.5em !important;
   padding: 0 0.5em !important;
   font-style: italic;
   color: #77797B; }
-
-html,
-body {
-  background-color: #D0DCAA; }
-
-#container {
-  background-color: #D0DCAA;
-  height: 100vh; }
-
-header a {
-  color: #292534; }
-
-header h4 {
-  color: #292534; }
-
-.dark.background {
-  color: #EEE3B8;
-  background-color: #001118; }
-
-button {
-  display: inline;
-  background: #00447B;
-  color: #E8E9C9;
-  border: 2px solid #6F9DB5;
-  border-radius: 8px; }
-
-main article section {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-  main article section div.solid.background {
-    -webkit-flex: 1 0 15em;
-    -ms-flex: 1 0 15em;
-    flex: 1 0 15em;
-    background-color: #E8E9C9;
-    margin: 0.5em;
-    padding: 0.5em; }
-    main article section div.solid.background a.button {
-      text-align: center; }
-
-main article ul.menu li {
-  margin: 0;
-  padding: 0;
-  background-color: #6F9DB5; }
-  main article ul.menu li a {
-    color: #FFFFFF; }
-
-main article .masthead h2 {
-  color: #EBA834; }
-
-main article div.card h4 {
-  color: #EEE3B8; }
-
-main article div.card div.description {
-  background-color: #6F9DB5; }
-
-input {
-  width: 100%; }
-
-textarea {
-  width: 100%; }
-
-li.active {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%); }
-  li.active a button {
-    opacity: 0.8;
-    border: 0;
-    background-color: #001118; }
 
 html,
 body {
@@ -765,24 +617,85 @@ nav a {
 div a {
   text-decoration: none; }
 
-div.solid.background div.employer {
-  padding: 0.5em; }
-  div.solid.background div.employer h4,
-  div.solid.background div.employer h5 {
-    padding: 0;
-    margin: 0;
-    text-align: left; }
-  div.solid.background div.employer h4 {
-    font-size: 1.6em; }
-  div.solid.background div.employer h6 {
-    font-size: 1em;
-    font-style: italic; }
-  div.solid.background div.employer:nth-child(odd) {
-    background-color: #6F9DB5;
-    color: #001118; }
-  div.solid.background div.employer:nth-child(even) {
-    background-color: #77797B;
-    color: #FFFFFF; }
+nav ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  nav ul li {
+    -webkit-flex: 1 0 12em;
+    -ms-flex: 1 0 12em;
+    flex: 1 0 12em;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    nav ul li a {
+      display: inherit;
+      width: 100%;
+      text-align: center;
+      vertical-align: middle; }
+      nav ul li a button {
+        display: block;
+        margin: auto; }
+    nav ul li.active {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%); }
+      nav ul li.active a button {
+        opacity: 0.8;
+        border: 0;
+        background-color: #001118; }
+
+header a {
+  color: #292534; }
+
+header h4 {
+  color: #292534; }
+
+header {
+  text-align: center;
+  vertical-align: middle; }
+  header .centered.container {
+    padding: 0.5em 0;
+    margin: 0 auto; }
+  header .menu.container {
+    padding: 0.5em 0;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: middle; }
+    header .menu.container div.page.title {
+      margin: auto 0; }
+    header .menu.container div.menu.link {
+      margin: auto 0;
+      position: relative; }
+      header .menu.container div.menu.link a {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        vertical-align: middle; }
+        header .menu.container div.menu.link a img {
+          padding: 0 0.5em; }
+        header .menu.container div.menu.link a span {
+          position: absolute;
+          top: calc((100%/2) - .75em);
+          left: 0;
+          width: 100%;
+          font-weight: 800;
+          color: #FFFFFF; }
+
+footer div {
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em; }
 
 label,
 input,
@@ -794,6 +707,35 @@ textarea {
 
 textarea {
   height: 10em; }
+
+input {
+  width: 100%; }
+
+textarea {
+  width: 100%; }
+
+button {
+  display: inline;
+  background: #00447B;
+  color: #E8E9C9;
+  border: 2px solid #6F9DB5;
+  border-radius: 8px; }
+
+div.card {
+  margin: 0.5em;
+  padding: 0.5em; }
+  div.card a {
+    text-decoration: none; }
+  div.card h4 {
+    margin: 0;
+    padding: 0 0 0.25em 0; }
+  div.card div.cropped.image {
+    overflow: hidden;
+    width: 100%;
+    height: calc(12em * 2/3); }
+  div.card img {
+    width: 100%;
+    padding: 0; }
 
 body {
   background: url("/img/footer_lodyas.png");
@@ -1005,5 +947,28 @@ footer nav {
     margin-top: 0; }
   #menu-button span {
     display: none; } }
+
+.dark.background {
+  color: #EEE3B8;
+  background-color: #001118; }
+
+div.solid.background div.employer {
+  padding: 0.5em; }
+  div.solid.background div.employer h4,
+  div.solid.background div.employer h5 {
+    padding: 0;
+    margin: 0;
+    text-align: left; }
+  div.solid.background div.employer h4 {
+    font-size: 1.6em; }
+  div.solid.background div.employer h6 {
+    font-size: 1em;
+    font-style: italic; }
+  div.solid.background div.employer:nth-child(odd) {
+    background-color: #6F9DB5;
+    color: #001118; }
+  div.solid.background div.employer:nth-child(even) {
+    background-color: #77797B;
+    color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */

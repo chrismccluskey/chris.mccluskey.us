@@ -1,0 +1,37 @@
+nav {
+  ul {
+    //flex-flow: column wrap;
+    display: flex;
+    flex-wrap: wrap;
+    //justify-content: space-between;
+
+    li {
+      flex: 1 0 12em;
+      display: flex;
+      a {
+        display: inherit;
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        //order: 0;
+        //padding: auto;
+        // width for fallback (10em)
+
+        button {
+          display: block;
+          margin: auto;
+        }
+      }
+      &.active {
+        @include filter(grayscale(100%));
+        a {
+          button {
+            opacity: 0.8;
+            border: 0;
+            background-color: $black;
+          }
+        }
+      }
+    }
+  }
+}

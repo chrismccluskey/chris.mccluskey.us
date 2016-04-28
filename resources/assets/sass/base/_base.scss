@@ -1,3 +1,12 @@
+html,
+body {
+  background-color:   $background-color;
+}
+
+a {
+  text-decoration: none;
+}
+
 #container {
   max-width: 1440px;
   margin: 0 auto;
@@ -23,48 +32,6 @@
   }
 }
 
-header {
-  //z-index: 10;
-  text-align: center;
-  vertical-align: middle;
-
-  .centered.container {
-    padding: 0.5em 0;
-    margin: 0 auto;
-  }
-
-  .menu.container {
-    padding: 0.5em 0;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-
-    div.page.title {
-      margin: auto 0;
-    }
-    div.menu.link {
-      margin: auto 0;
-      position: relative;
-      a {
-        display: flex;
-        vertical-align: middle;
-        img {
-          padding: 0 0.5em;
-        }
-        span {
-          position: absolute;
-          top: calc((100%/2) - .75em);
-          left: 0;
-          width: 100%;
-          font-weight: 800;
-          color: $white;
-        }
-      }
-    }
-  }
-
-}
 
 main {
   //z-index: 10;
@@ -136,43 +103,4 @@ div.solid.background {
   }
 }
 
-nav {
-  ul {
-    //flex-flow: column wrap;
-    display: flex;
-    flex-wrap: wrap;
-    //justify-content: space-between;
 
-    li {
-      flex: 1 0 12em;
-      display: flex;
-      a {
-        display: inherit;
-        width: 100%;
-        text-align: center;
-        vertical-align: middle;
-        //order: 0;
-        //padding: auto;
-        // width for fallback (10em)
-
-        button {
-          display: block;
-          margin: auto;
-        }
-      }
-    }
-  }
-}
-
-footer {
-  //position: absolute;
-  //bottom: 0px;
-  //display: block;
-  //max-width: 1440px;
-  //width: 100%;
-  div {
-    margin: 0 auto;
-    text-align: center;
-    padding: 1em;
-  }
-}

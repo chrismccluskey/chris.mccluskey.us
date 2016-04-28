@@ -1,0 +1,45 @@
+#container {
+  background-color:   $background-color;
+  height: 100vh;
+}
+
+main {
+  article {
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      div.solid.background {
+        flex: 1 0 15em;
+        background-color: $orange-cream;
+        margin: 0.5em;
+        padding: 0.5em;
+        a.button {
+          text-align: center;
+        }
+      }
+    }
+    ul.menu {
+      li {
+        margin: 0;
+        padding: 0;
+        background-color: $subnav-bg-color;
+        a {
+          color: $subnav-text-color;
+        }
+      }
+    }
+    .masthead {
+      h2 {
+        color: $masthead-text-color;
+      }
+    }
+    div.card {
+      h4 {
+        color: $portfolio-card-header-color;
+      }
+      div.description {
+        background-color: $portfolio-card-description-bg-color;
+      }
+    }
+  }
+}

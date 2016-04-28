@@ -64,6 +64,9 @@
     article.road.background {
       min-height: 50vh;
     }
+    article {
+      padding-top: 0;
+    }
   }
   #menu {
     margin-top: 0;
@@ -96,6 +99,9 @@
   main {
     article.road.background {
       min-height: calc(100vh - 320px);
+    }
+    article {
+      padding-top: 0;
     }
     margin-top: 0;
   }
@@ -131,6 +137,9 @@
     margin-top: 0;
     article.road.background {
       min-height: calc(100vh - 550px);
+    }
+    article {
+      padding-top: 0;
     }
   }
   #menu {

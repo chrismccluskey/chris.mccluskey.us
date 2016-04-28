@@ -11,3 +11,10 @@
   font-style: italic;
   color: $note-color;
 }
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -6em;
+  visibility: hidden;
+}

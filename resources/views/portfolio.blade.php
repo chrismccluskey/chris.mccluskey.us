@@ -16,7 +16,8 @@
     <section>
     @foreach ($project_categories as $category)
       <div class="solid background">
-        <h3><a name="{{$category->slug}}">{{$category->title}}</a></h3>
+        <a class="anchor" name="{{$category->slug}}"></a>
+        <h3>{{$category->title}}</h3>
         @foreach ($projects as $project)
             @if ($project->category_id == $category->id)
         <div class="card">

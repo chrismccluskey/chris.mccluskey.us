@@ -7,16 +7,20 @@ window.mccluskey = {
 
 mccluskey.ready = function () {
   var $menuButton = document.getElementById('menu-button'),
+      $menuButtonLabel = document.getElementById('menu-button-label'),
       $menu = document.getElementById('menu'),
+      menuExpandedBreakpoint = 900,
       handler;
 
   handler = {
     menuClick: function menuClick(event) {
-      if ($menu.style.marginTop == '5em') {
-        var height = $menu.clientHeight;
-        $menu.style.marginTop = '-' + height + 'px';
-      } else {
-        $menu.style.marginTop = '5em';
+      if (window.innerWidth < menuExpandedBreakpoint) {
+        if ($menu.style.marginTop == '5em') {
+          var height = $menu.clientHeight;
+          $menu.style.marginTop = '-' + height + 'px';
+        } else {
+          $menu.style.marginTop = '5em';
+        }
       }
     }
   };

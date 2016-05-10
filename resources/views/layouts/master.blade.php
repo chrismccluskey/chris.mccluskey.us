@@ -19,7 +19,7 @@
                 </div>
                 <div class="menu link">
                     <a id="menu-button">
-                        <span>MENU</span>
+                        <span id="menu-button-label">MENU</span>
                         <img src="/svg/logo.svg" alt="[Logo]" />
                     </a>
                 </div>

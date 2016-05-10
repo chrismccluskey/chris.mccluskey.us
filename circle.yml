@@ -3,3 +3,8 @@ dependencies:
     - cp .env.example .env
     - php artisan key:generate
     - gulp
+deployment:
+  production:
+    branch: master
+    commands:
+      - envoy run deploy --user=$PRODUCTION_DEPLOY_USER --server=$PRODUCTION_DEPLOY_SERVER

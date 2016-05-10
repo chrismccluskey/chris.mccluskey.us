@@ -9,7 +9,5 @@
 @task('deploy')
     cd /srv/www/chris.mccluskey.us
     git pull origin master
-    npm install
-    gulp
     php artisan migrate
 @endtask

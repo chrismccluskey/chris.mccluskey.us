@@ -7,4 +7,4 @@ deployment:
   production:
     branch: master
     commands:
-      - php vendor/bin/envoy run deploy --user=$PRODUCTION_DEPLOY_USER --server=$PRODUCTION_DEPLOY_SERVER
+      - php vendor/bin/envoy run deploy --user=$PRODUCTION_DEPLOY_USER --server=$PRODUCTION_DEPLOY_SERVER --cf_zoneid=$CF_ZONEID --cf_email=$CF_EMAIL --cf_key=$CF_KEY

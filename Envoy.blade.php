@@ -1,7 +1,5 @@
 @setup
-    $deploy_user = $user;
-    $deploy_server = $server;
-    $deploy_server_string = sprintf('%s@%s', $deploy_user, $deploy_server);
+    $deploy_server_string = sprintf('%s@%s', $user, $server);
 @endsetup
 
 @servers(['web' => $deploy_server_string])
@@ -10,4 +8,11 @@
     cd /srv/www/chris.mccluskey.us
     git pull origin master
     php artisan migrate
+
+    curl -X DELETE "https://api.cloudflare.com/client/v4/zones/{{ $cf_zoneid }}/purge_cache" \
+    -H "X-Auth-Email: {{ $cf_email }}" \
+    -H "X-Auth-Key: {{ $cf_key }}" \
+    -H "Content-Type: application/json" \
+    --data '{"purge_everything":true}'
 @endtask
+

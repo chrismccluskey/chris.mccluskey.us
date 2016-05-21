@@ -7,6 +7,7 @@
             <div class="solid background">
                 <h3>Development Credits</h3>
                 <p>Unless otherwise noted on this page, all source code for this site was developed by Chris McCluskey.</p>
+                <p>If you'd like to view the source code for this site you can view the repository on <a href="http://github.com/chrismccluskey/chris.mccluskey.us">GitHub</a>
             </div>
         </section>
 
@@ -19,6 +20,8 @@
                   <dd>PHP Application Framework</dd>
                   <dt><a href="https://necolas.github.io/normalize.css/" target="normalize.css">Normalize.css</a></dt>
                   <dd>CSS Reset Definitions</dd>
+                  <dt><a href="https://fontawesome.io/" target="fontawesome">Font Awesome</a></dt>
+                  <dd>Iconographic fonts for this website</dd>
                 </dl>
 
             </div>

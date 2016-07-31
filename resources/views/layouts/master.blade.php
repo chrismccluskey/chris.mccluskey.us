@@ -84,6 +84,7 @@
                 <a href="http://stackoverflow.com/cv/chris-mccluskey" target="stack-overflow-profile"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
                 <a href="http://angel.co/chris-mccluskey-us" target="angelist-profile"><i class="fa fa-angellist" aria-hidden="true"></i></a>
                 <a href="skype:chris.mccluskey.us?chat&topic=website"><i class="fa fa-skype" aria-hidden="true"></i></a>
+                <a href="http://soundcloud.com/subprocess" target="soundcloud-profile"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
             </div>
             <div>
                 <a href="/about/this-site">credits / about this site</a>

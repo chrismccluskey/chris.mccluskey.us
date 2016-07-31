@@ -16,7 +16,7 @@
     <section>
         <div class="solid background">
             <h3><a name="availability">Availability</a></h3>
-            <p>At this time, I am seeking full time employment and am available for full/part time employment or contract work.</p>
+            <p>I am currently employed and am not seeking employment. I am available for off-hours consulting on a case by case basis.</p>
         </div>
     </section>
             <h3><a name="skills">Skills</a></h3>
@@ -121,6 +121,12 @@
 
     <section>
         <div class="solid background">
+            <div class="employer">
+                <h4>Digital Trends</h4>
+                <h5>SR. WEB DEVELOPER</h5>
+                <h6>2016 - Present</h6>
+            </div>
+
             <div class="employer">
                 <h4>Ethology</h4>
                 <h5>DIRECTOR OF TECHNOLOGY</h5>

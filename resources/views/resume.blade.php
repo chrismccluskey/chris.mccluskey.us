@@ -124,7 +124,12 @@
             <div class="employer">
                 <h4>Digital Trends</h4>
                 <h5>SR. WEB DEVELOPER</h5>
-                <h6>2016 - Present</h6>
+                <h6>2016 - 2019</h6>
+                <ul>
+                    <li>Contributed to core site development in a full stack capacity for digitaltrends.com - a WordPress site with 24mm+ unique monthly users (11.5mm U.S. Comscore) that had 4k - 11k concurrent visitors at any moment. Focused on backend with some front-end work.</li>
+                    <li>Developed custom WordPress plugins which interacted with internal and external APIs with performance and concurrency in mind. Created custom WPCLI commands to automate content housekeeping tasks. Worked directly with affiliate marketing networks, ad platforms and multiple video providers.</li>
+                    <li>Developed custom React components for rich client-side experiences. Created social analytics data aggregation platform to facilitate getting reporting data into AWS RDS. Automated tens of thousands of videos from one provider to another.</li>
+                </ul>
             </div>
 
             <div class="employer">

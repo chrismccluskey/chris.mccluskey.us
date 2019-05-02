@@ -1,0 +1,5 @@
+name: chris.mccluskey.us
+recipe: laravel
+config:
+  webroot: ./public/
+  via: nginx

@@ -120,12 +120,5 @@ class DatabaseSeeder extends Seeder
             'description' => 'An anonymizing HTTP proxy with IP rotating capabilities.',
             'category_id' => 9
         ]);
-        DB::table('projects')->insert([
-            'title' => 'Rainbo.ws',
-            'link' => 'http://rainbo.ws',
-            'image_filename' => '/img/rainbows.png',
-            'description' => 'I enjoy playing around with new technologies. While playing around with drawing on canvas with JavaScript, I created this little web toy.',
-            'category_id' => 10
-        ]);
     }
 }

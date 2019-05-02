@@ -56,12 +56,6 @@ class DatabaseSeeder extends Seeder
             'title' => 'Web Proxies',
             'slug' => 'web-proxies'
         ]);
-        DB::table('project_categories')->insert([
-            'id' => 10,
-            'title' => 'Web Toys & Experiments',
-            'slug' => 'web-toys-and-experiments'
-        ]);
-
 
 
 
